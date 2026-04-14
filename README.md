@@ -4,10 +4,8 @@ A royalty-free demo IPTV playlist for testing and App Store review purposes.
 
 ## Playlist URL
 
-Once this repository is public, use the raw file URL:
-
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/wuwtv-demo-playlist/main/demo.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.m3u
 ```
 
 ## Content
