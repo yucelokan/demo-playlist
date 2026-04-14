@@ -1,451 +1,800 @@
 #EXTM3U
 
 #
-# WUWTV Demo Playlist — v3
-#
-# Video streams (public, no auth):
-#   A = https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8        (Mux / Big Buck Bunny HLS)
-#   B = https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
-#   C = https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
-#
-# Images: https://picsum.photos/seed/{word}/WxH — Lorem Picsum, always HTTP 200, stable CDN
+# WUWTV Demo Playlist v4
+# Copyright-free content for Apple App Store Review
+# Images: Lorem Picsum (picsum.photos) — CC0 / No License Required
+# Streams: Mux & Apple Developer public HLS test streams (Big Buck Bunny CC-BY / Apple BBB)
 #
 
 ##############################################################################
-# LIVE TV  — 36 channels across 6 categories
+# LIVE TV — 10 groups × 10 channels = 100
 ##############################################################################
 
-#EXTINF:-1 tvg-id="nw1" tvg-name="Nature Live HD" tvg-logo="https://picsum.photos/seed/safari/400/225" group-title="Nature & Wildlife",Nature Live HD
+#EXTINF:-1 tvg-id="nature.live" tvg-name="Nature Live" tvg-logo="https://fastly.picsum.photos/id/1/400/225" group-title="Nature & Wildlife",Nature Live
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="nw2" tvg-name="Wildlife Watch" tvg-logo="https://picsum.photos/seed/tiger/400/225" group-title="Nature & Wildlife",Wildlife Watch
+#EXTINF:-1 tvg-id="wildlife.watch" tvg-name="Wildlife Watch" tvg-logo="https://fastly.picsum.photos/id/2/400/225" group-title="Nature & Wildlife",Wildlife Watch
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="nw3" tvg-name="Oceans Alive" tvg-logo="https://picsum.photos/seed/ocean/400/225" group-title="Nature & Wildlife",Oceans Alive
+#EXTINF:-1 tvg-id="oceans.alive" tvg-name="Oceans Alive" tvg-logo="https://fastly.picsum.photos/id/3/400/225" group-title="Nature & Wildlife",Oceans Alive
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="nw4" tvg-name="Rainforest TV" tvg-logo="https://picsum.photos/seed/forest/400/225" group-title="Nature & Wildlife",Rainforest TV
+#EXTINF:-1 tvg-id="rainforest.tv" tvg-name="Rainforest TV" tvg-logo="https://fastly.picsum.photos/id/4/400/225" group-title="Nature & Wildlife",Rainforest TV
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="nw5" tvg-name="Arctic Expedition" tvg-logo="https://picsum.photos/seed/arctic/400/225" group-title="Nature & Wildlife",Arctic Expedition
+#EXTINF:-1 tvg-id="arctic.expedition" tvg-name="Arctic Expedition" tvg-logo="https://fastly.picsum.photos/id/5/400/225" group-title="Nature & Wildlife",Arctic Expedition
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="nw6" tvg-name="Savanna Sunrise" tvg-logo="https://picsum.photos/seed/savanna/400/225" group-title="Nature & Wildlife",Savanna Sunrise
+#EXTINF:-1 tvg-id="safari.channel" tvg-name="Safari Channel" tvg-logo="https://fastly.picsum.photos/id/6/400/225" group-title="Nature & Wildlife",Safari Channel
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="nw7" tvg-name="Amazon River" tvg-logo="https://picsum.photos/seed/amazon/400/225" group-title="Nature & Wildlife",Amazon River
+#EXTINF:-1 tvg-id="deep.blue.hd" tvg-name="Deep Blue HD" tvg-logo="https://fastly.picsum.photos/id/7/400/225" group-title="Nature & Wildlife",Deep Blue HD
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ss1" tvg-name="Cosmos Live" tvg-logo="https://picsum.photos/seed/cosmos/400/225" group-title="Space & Science",Cosmos Live
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
-
-#EXTINF:-1 tvg-id="ss2" tvg-name="NASA Universe" tvg-logo="https://picsum.photos/seed/nasa/400/225" group-title="Space & Science",NASA Universe
+#EXTINF:-1 tvg-id="forest.vision" tvg-name="Forest Vision" tvg-logo="https://fastly.picsum.photos/id/8/400/225" group-title="Nature & Wildlife",Forest Vision
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ss3" tvg-name="Deep Space HD" tvg-logo="https://picsum.photos/seed/nebula/400/225" group-title="Space & Science",Deep Space HD
+#EXTINF:-1 tvg-id="desert.life" tvg-name="Desert Life" tvg-logo="https://fastly.picsum.photos/id/9/400/225" group-title="Nature & Wildlife",Desert Life
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ss4" tvg-name="Science Now" tvg-logo="https://picsum.photos/seed/science/400/225" group-title="Space & Science",Science Now
+#EXTINF:-1 tvg-id="bird.watch" tvg-name="Bird Watch" tvg-logo="https://fastly.picsum.photos/id/10/400/225" group-title="Nature & Wildlife",Bird Watch
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ss5" tvg-name="Astronomy Tonight" tvg-logo="https://picsum.photos/seed/galaxy/400/225" group-title="Space & Science",Astronomy Tonight
+#EXTINF:-1 tvg-id="cosmos.live" tvg-name="Cosmos Live" tvg-logo="https://fastly.picsum.photos/id/11/400/225" group-title="Space & Science",Cosmos Live
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ss6" tvg-name="Telescope Live" tvg-logo="https://picsum.photos/seed/telescope/400/225" group-title="Space & Science",Telescope Live
+#EXTINF:-1 tvg-id="nasa.universe" tvg-name="NASA Universe" tvg-logo="https://fastly.picsum.photos/id/12/400/225" group-title="Space & Science",NASA Universe
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ss7" tvg-name="Mars Mission" tvg-logo="https://picsum.photos/seed/mars/400/225" group-title="Space & Science",Mars Mission
+#EXTINF:-1 tvg-id="deep.space.hd" tvg-name="Deep Space HD" tvg-logo="https://fastly.picsum.photos/id/13/400/225" group-title="Space & Science",Deep Space HD
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="wd1" tvg-name="World Stories HD" tvg-logo="https://picsum.photos/seed/world/400/225" group-title="World Documentary",World Stories HD
+#EXTINF:-1 tvg-id="science.now" tvg-name="Science Now" tvg-logo="https://fastly.picsum.photos/id/14/400/225" group-title="Space & Science",Science Now
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="wd2" tvg-name="Global Voices" tvg-logo="https://picsum.photos/seed/global/400/225" group-title="World Documentary",Global Voices
+#EXTINF:-1 tvg-id="astronomy.tonight" tvg-name="Astronomy Tonight" tvg-logo="https://fastly.picsum.photos/id/15/400/225" group-title="Space & Science",Astronomy Tonight
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="wd3" tvg-name="Heritage Channel" tvg-logo="https://picsum.photos/seed/heritage/400/225" group-title="World Documentary",Heritage Channel
+#EXTINF:-1 tvg-id="galaxy.watch" tvg-name="Galaxy Watch" tvg-logo="https://fastly.picsum.photos/id/16/400/225" group-title="Space & Science",Galaxy Watch
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="wd4" tvg-name="Human Planet Live" tvg-logo="https://picsum.photos/seed/tribe/400/225" group-title="World Documentary",Human Planet Live
+#EXTINF:-1 tvg-id="mars.explorer" tvg-name="Mars Explorer" tvg-logo="https://fastly.picsum.photos/id/17/400/225" group-title="Space & Science",Mars Explorer
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="wd5" tvg-name="Culture World" tvg-logo="https://picsum.photos/seed/culture/400/225" group-title="World Documentary",Culture World
+#EXTINF:-1 tvg-id="solar.wind" tvg-name="Solar Wind" tvg-logo="https://fastly.picsum.photos/id/18/400/225" group-title="Space & Science",Solar Wind
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="wd6" tvg-name="Civilizations HD" tvg-logo="https://picsum.photos/seed/pyramid/400/225" group-title="World Documentary",Civilizations HD
+#EXTINF:-1 tvg-id="nebula.vision" tvg-name="Nebula Vision" tvg-logo="https://fastly.picsum.photos/id/19/400/225" group-title="Space & Science",Nebula Vision
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="wd7" tvg-name="Ancient Routes" tvg-logo="https://picsum.photos/seed/ancient/400/225" group-title="World Documentary",Ancient Routes
+#EXTINF:-1 tvg-id="quantum.science" tvg-name="Quantum Science" tvg-logo="https://fastly.picsum.photos/id/20/400/225" group-title="Space & Science",Quantum Science
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ac1" tvg-name="Art Gallery Live" tvg-logo="https://picsum.photos/seed/gallery/400/225" group-title="Arts & Culture",Art Gallery Live
+#EXTINF:-1 tvg-id="world.stories.hd" tvg-name="World Stories HD" tvg-logo="https://fastly.picsum.photos/id/21/400/225" group-title="World Documentary",World Stories HD
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ac2" tvg-name="Classical Music TV" tvg-logo="https://picsum.photos/seed/music/400/225" group-title="Arts & Culture",Classical Music TV
+#EXTINF:-1 tvg-id="global.voices" tvg-name="Global Voices" tvg-logo="https://fastly.picsum.photos/id/22/400/225" group-title="World Documentary",Global Voices
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ac3" tvg-name="Opera House" tvg-logo="https://picsum.photos/seed/opera/400/225" group-title="Arts & Culture",Opera House
+#EXTINF:-1 tvg-id="heritage.channel" tvg-name="Heritage Channel" tvg-logo="https://fastly.picsum.photos/id/23/400/225" group-title="World Documentary",Heritage Channel
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ac4" tvg-name="Museum Channel" tvg-logo="https://picsum.photos/seed/museum/400/225" group-title="Arts & Culture",Museum Channel
+#EXTINF:-1 tvg-id="human.planet.live" tvg-name="Human Planet Live" tvg-logo="https://fastly.picsum.photos/id/24/400/225" group-title="World Documentary",Human Planet Live
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ac5" tvg-name="Poetry and Prose" tvg-logo="https://picsum.photos/seed/poetry/400/225" group-title="Arts & Culture",Poetry and Prose
+#EXTINF:-1 tvg-id="culture.world" tvg-name="Culture World" tvg-logo="https://fastly.picsum.photos/id/25/400/225" group-title="World Documentary",Culture World
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ac6" tvg-name="Theatre Live" tvg-logo="https://picsum.photos/seed/theatre/400/225" group-title="Arts & Culture",Theatre Live
+#EXTINF:-1 tvg-id="earth.chronicles" tvg-name="Earth Chronicles" tvg-logo="https://fastly.picsum.photos/id/26/400/225" group-title="World Documentary",Earth Chronicles
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ka1" tvg-name="Animation World" tvg-logo="https://picsum.photos/seed/cartoon/400/225" group-title="Kids & Animation",Animation World
+#EXTINF:-1 tvg-id="nations.tv" tvg-name="Nations TV" tvg-logo="https://fastly.picsum.photos/id/27/400/225" group-title="World Documentary",Nations TV
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ka2" tvg-name="Story Time Live" tvg-logo="https://picsum.photos/seed/storybook/400/225" group-title="Kids & Animation",Story Time Live
+#EXTINF:-1 tvg-id="real.life.hd" tvg-name="Real Life HD" tvg-logo="https://fastly.picsum.photos/id/28/400/225" group-title="World Documentary",Real Life HD
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ka3" tvg-name="Creative Kids TV" tvg-logo="https://picsum.photos/seed/bunny/400/225" group-title="Kids & Animation",Creative Kids TV
+#EXTINF:-1 tvg-id="story.world" tvg-name="Story World" tvg-logo="https://fastly.picsum.photos/id/29/400/225" group-title="World Documentary",Story World
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ka4" tvg-name="Cartoon Classics" tvg-logo="https://picsum.photos/seed/classic/400/225" group-title="Kids & Animation",Cartoon Classics
+#EXTINF:-1 tvg-id="true.stories" tvg-name="True Stories" tvg-logo="https://fastly.picsum.photos/id/30/400/225" group-title="World Documentary",True Stories
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ka5" tvg-name="Science for Kids" tvg-logo="https://picsum.photos/seed/kidscience/400/225" group-title="Kids & Animation",Science for Kids
+#EXTINF:-1 tvg-id="art.gallery.live" tvg-name="Art Gallery Live" tvg-logo="https://fastly.picsum.photos/id/31/400/225" group-title="Arts & Culture",Art Gallery Live
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ka6" tvg-name="Fable Forest" tvg-logo="https://picsum.photos/seed/fable/400/225" group-title="Kids & Animation",Fable Forest
+#EXTINF:-1 tvg-id="museum.online" tvg-name="Museum Online" tvg-logo="https://fastly.picsum.photos/id/32/400/225" group-title="Arts & Culture",Museum Online
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 tvg-id="ta1" tvg-name="World Traveler HD" tvg-logo="https://picsum.photos/seed/travel/400/225" group-title="Travel & Adventure",World Traveler HD
+#EXTINF:-1 tvg-id="classical.arts" tvg-name="Classical Arts" tvg-logo="https://fastly.picsum.photos/id/33/400/225" group-title="Arts & Culture",Classical Arts
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 tvg-id="ta2" tvg-name="Adventure Now" tvg-logo="https://picsum.photos/seed/adventure/400/225" group-title="Travel & Adventure",Adventure Now
+#EXTINF:-1 tvg-id="modern.vision" tvg-name="Modern Vision" tvg-logo="https://fastly.picsum.photos/id/34/400/225" group-title="Arts & Culture",Modern Vision
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 tvg-id="ta3" tvg-name="Epic Journeys" tvg-logo="https://picsum.photos/seed/journey/400/225" group-title="Travel & Adventure",Epic Journeys
+#EXTINF:-1 tvg-id="culture.stream" tvg-name="Culture Stream" tvg-logo="https://fastly.picsum.photos/id/35/400/225" group-title="Arts & Culture",Culture Stream
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="creative.world" tvg-name="Creative World" tvg-logo="https://fastly.picsum.photos/id/36/400/225" group-title="Arts & Culture",Creative World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="fine.arts.tv" tvg-name="Fine Arts TV" tvg-logo="https://fastly.picsum.photos/id/37/400/225" group-title="Arts & Culture",Fine Arts TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="sketch.live" tvg-name="Sketch Live" tvg-logo="https://fastly.picsum.photos/id/38/400/225" group-title="Arts & Culture",Sketch Live
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="gallery.hd" tvg-name="Gallery HD" tvg-logo="https://fastly.picsum.photos/id/39/400/225" group-title="Arts & Culture",Gallery HD
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="canvas.tv" tvg-name="Canvas TV" tvg-logo="https://fastly.picsum.photos/id/40/400/225" group-title="Arts & Culture",Canvas TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="kids.world" tvg-name="Kids World" tvg-logo="https://fastly.picsum.photos/id/41/400/225" group-title="Kids & Education",Kids World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="learning.channel" tvg-name="Learning Channel" tvg-logo="https://fastly.picsum.photos/id/42/400/225" group-title="Kids & Education",Learning Channel
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="discovery.kids" tvg-name="Discovery Kids" tvg-logo="https://fastly.picsum.photos/id/43/400/225" group-title="Kids & Education",Discovery Kids
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="fun.science" tvg-name="Fun Science" tvg-logo="https://fastly.picsum.photos/id/44/400/225" group-title="Kids & Education",Fun Science
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="story.time" tvg-name="Story Time" tvg-logo="https://fastly.picsum.photos/id/45/400/225" group-title="Kids & Education",Story Time
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="adventure.kids" tvg-name="Adventure Kids" tvg-logo="https://fastly.picsum.photos/id/46/400/225" group-title="Kids & Education",Adventure Kids
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="little.explorers" tvg-name="Little Explorers" tvg-logo="https://fastly.picsum.photos/id/47/400/225" group-title="Kids & Education",Little Explorers
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="rainbow.tv" tvg-name="Rainbow TV" tvg-logo="https://fastly.picsum.photos/id/48/400/225" group-title="Kids & Education",Rainbow TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="kidz.zone" tvg-name="Kidz Zone" tvg-logo="https://fastly.picsum.photos/id/49/400/225" group-title="Kids & Education",Kidz Zone
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="junior.learn" tvg-name="Junior Learn" tvg-logo="https://fastly.picsum.photos/id/50/400/225" group-title="Kids & Education",Junior Learn
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="travel.world" tvg-name="Travel World" tvg-logo="https://fastly.picsum.photos/id/51/400/225" group-title="Travel & Adventure",Travel World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="adventure.hd" tvg-name="Adventure HD" tvg-logo="https://fastly.picsum.photos/id/52/400/225" group-title="Travel & Adventure",Adventure HD
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="globe.trotter" tvg-name="Globe Trotter" tvg-logo="https://fastly.picsum.photos/id/53/400/225" group-title="Travel & Adventure",Globe Trotter
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="wanderlust.tv" tvg-name="Wanderlust TV" tvg-logo="https://fastly.picsum.photos/id/54/400/225" group-title="Travel & Adventure",Wanderlust TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="journey.live" tvg-name="Journey Live" tvg-logo="https://fastly.picsum.photos/id/55/400/225" group-title="Travel & Adventure",Journey Live
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="explore.world" tvg-name="Explore World" tvg-logo="https://fastly.picsum.photos/id/56/400/225" group-title="Travel & Adventure",Explore World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="backpack.tv" tvg-name="Backpack TV" tvg-logo="https://fastly.picsum.photos/id/57/400/225" group-title="Travel & Adventure",Backpack TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="atlas.channel" tvg-name="Atlas Channel" tvg-logo="https://fastly.picsum.photos/id/58/400/225" group-title="Travel & Adventure",Atlas Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="horizon.live" tvg-name="Horizon Live" tvg-logo="https://fastly.picsum.photos/id/59/400/225" group-title="Travel & Adventure",Horizon Live
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="passport.hd" tvg-name="Passport HD" tvg-logo="https://fastly.picsum.photos/id/60/400/225" group-title="Travel & Adventure",Passport HD
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="history.now" tvg-name="History Now" tvg-logo="https://fastly.picsum.photos/id/61/400/225" group-title="History & Heritage",History Now
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="ancient.world" tvg-name="Ancient World" tvg-logo="https://fastly.picsum.photos/id/62/400/225" group-title="History & Heritage",Ancient World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="legacy.tv" tvg-name="Legacy TV" tvg-logo="https://fastly.picsum.photos/id/63/400/225" group-title="History & Heritage",Legacy TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="chronicles.hd" tvg-name="Chronicles HD" tvg-logo="https://fastly.picsum.photos/id/64/400/225" group-title="History & Heritage",Chronicles HD
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="time.vault" tvg-name="Time Vault" tvg-logo="https://fastly.picsum.photos/id/65/400/225" group-title="History & Heritage",Time Vault
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="past.and.present" tvg-name="Past & Present" tvg-logo="https://fastly.picsum.photos/id/66/400/225" group-title="History & Heritage",Past & Present
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="epoch.channel" tvg-name="Epoch Channel" tvg-logo="https://fastly.picsum.photos/id/67/400/225" group-title="History & Heritage",Epoch Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="civilization.tv" tvg-name="Civilization TV" tvg-logo="https://fastly.picsum.photos/id/68/400/225" group-title="History & Heritage",Civilization TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="archive.live" tvg-name="Archive Live" tvg-logo="https://fastly.picsum.photos/id/69/400/225" group-title="History & Heritage",Archive Live
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="ruins.tv" tvg-name="Ruins TV" tvg-logo="https://fastly.picsum.photos/id/70/400/225" group-title="History & Heritage",Ruins TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="tech.today" tvg-name="Tech Today" tvg-logo="https://fastly.picsum.photos/id/71/400/225" group-title="Technology & Innovation",Tech Today
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="innovation.live" tvg-name="Innovation Live" tvg-logo="https://fastly.picsum.photos/id/72/400/225" group-title="Technology & Innovation",Innovation Live
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="future.vision" tvg-name="Future Vision" tvg-logo="https://fastly.picsum.photos/id/73/400/225" group-title="Technology & Innovation",Future Vision
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="digital.world" tvg-name="Digital World" tvg-logo="https://fastly.picsum.photos/id/74/400/225" group-title="Technology & Innovation",Digital World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="code.stream" tvg-name="Code Stream" tvg-logo="https://fastly.picsum.photos/id/75/400/225" group-title="Technology & Innovation",Code Stream
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="silicon.valley.tv" tvg-name="Silicon Valley TV" tvg-logo="https://fastly.picsum.photos/id/76/400/225" group-title="Technology & Innovation",Silicon Valley TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="startup.channel" tvg-name="Startup Channel" tvg-logo="https://fastly.picsum.photos/id/77/400/225" group-title="Technology & Innovation",Startup Channel
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="ai.frontiers" tvg-name="AI Frontiers" tvg-logo="https://fastly.picsum.photos/id/78/400/225" group-title="Technology & Innovation",AI Frontiers
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="byte.tv" tvg-name="Byte TV" tvg-logo="https://fastly.picsum.photos/id/79/400/225" group-title="Technology & Innovation",Byte TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="circuit.hd" tvg-name="Circuit HD" tvg-logo="https://fastly.picsum.photos/id/80/400/225" group-title="Technology & Innovation",Circuit HD
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="active.life" tvg-name="Active Life" tvg-logo="https://fastly.picsum.photos/id/81/400/225" group-title="Sports & Fitness",Active Life
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="fitness.live" tvg-name="Fitness Live" tvg-logo="https://fastly.picsum.photos/id/82/400/225" group-title="Sports & Fitness",Fitness Live
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="sport.world.hd" tvg-name="Sport World HD" tvg-logo="https://fastly.picsum.photos/id/83/400/225" group-title="Sports & Fitness",Sport World HD
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="outdoor.challenge" tvg-name="Outdoor Challenge" tvg-logo="https://fastly.picsum.photos/id/84/400/225" group-title="Sports & Fitness",Outdoor Challenge
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="yoga.and.wellness" tvg-name="Yoga & Wellness" tvg-logo="https://fastly.picsum.photos/id/85/400/225" group-title="Sports & Fitness",Yoga & Wellness
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="marathon.tv" tvg-name="Marathon TV" tvg-logo="https://fastly.picsum.photos/id/86/400/225" group-title="Sports & Fitness",Marathon TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="extreme.sports" tvg-name="Extreme Sports" tvg-logo="https://fastly.picsum.photos/id/87/400/225" group-title="Sports & Fitness",Extreme Sports
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="athlete.channel" tvg-name="Athlete Channel" tvg-logo="https://fastly.picsum.photos/id/88/400/225" group-title="Sports & Fitness",Athlete Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="training.zone" tvg-name="Training Zone" tvg-logo="https://fastly.picsum.photos/id/89/400/225" group-title="Sports & Fitness",Training Zone
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="peak.performance" tvg-name="Peak Performance" tvg-logo="https://fastly.picsum.photos/id/90/400/225" group-title="Sports & Fitness",Peak Performance
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="melody.live" tvg-name="Melody Live" tvg-logo="https://fastly.picsum.photos/id/91/400/225" group-title="Music & Lifestyle",Melody Live
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="rhythm.world" tvg-name="Rhythm World" tvg-logo="https://fastly.picsum.photos/id/92/400/225" group-title="Music & Lifestyle",Rhythm World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="acoustic.sessions" tvg-name="Acoustic Sessions" tvg-logo="https://fastly.picsum.photos/id/93/400/225" group-title="Music & Lifestyle",Acoustic Sessions
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="jazz.and.blues" tvg-name="Jazz & Blues" tvg-logo="https://fastly.picsum.photos/id/94/400/225" group-title="Music & Lifestyle",Jazz & Blues
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="folk.sounds" tvg-name="Folk Sounds" tvg-logo="https://fastly.picsum.photos/id/95/400/225" group-title="Music & Lifestyle",Folk Sounds
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="indie.stream" tvg-name="Indie Stream" tvg-logo="https://fastly.picsum.photos/id/96/400/225" group-title="Music & Lifestyle",Indie Stream
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="classic.tunes" tvg-name="Classic Tunes" tvg-logo="https://fastly.picsum.photos/id/97/400/225" group-title="Music & Lifestyle",Classic Tunes
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="sound.stage" tvg-name="Sound Stage" tvg-logo="https://fastly.picsum.photos/id/98/400/225" group-title="Music & Lifestyle",Sound Stage
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="harmony.tv" tvg-name="Harmony TV" tvg-logo="https://fastly.picsum.photos/id/99/400/225" group-title="Music & Lifestyle",Harmony TV
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="groove.channel" tvg-name="Groove Channel" tvg-logo="https://fastly.picsum.photos/id/100/400/225" group-title="Music & Lifestyle",Groove Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
 ##############################################################################
-# MOVIES — 56 films across 8 categories (7 per category)
+# MOVIES — 10 genres × 10 films = 100
 ##############################################################################
 
-#EXTINF:5760 tvg-id="anim1" tvg-type="movie" tvg-name="Big Buck Bunny" tvg-logo="https://picsum.photos/seed/bigbuck/300/450" tvg-backdrop="https://picsum.photos/seed/bigbuckw/800/450" group-title="Animation Classics" tvg-genre="Animation, Comedy, Family" tvg-cast="Blender Foundation" tvg-director="Sacha Goedegebure" tvg-rating="7.5" tvg-year="2008" tvg-description="A large and lovable rabbit deals with three tiny bullies. The iconic open-source Blender short that changed digital animation.",Big Buck Bunny (2008)
+#EXTINF:-1 tvg-id="into.the.wild" tvg-name="Into the Wild" tvg-logo="https://fastly.picsum.photos/id/1/300/450" tvg-type="movie" tvg-plot="A breathtaking journey through untouched wilderness and remote ecosystems." tvg-backdrop="https://fastly.picsum.photos/id/51/800/450" group-title="Nature Documentary",Into the Wild
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:654 tvg-id="anim2" tvg-type="movie" tvg-name="Elephants Dream" tvg-logo="https://picsum.photos/seed/elephants/300/450" tvg-backdrop="https://picsum.photos/seed/elephantsw/800/450" group-title="Animation Classics" tvg-genre="Animation, Sci-Fi, Fantasy" tvg-cast="Cas Jansen, Tygo Gernandt" tvg-director="Bassam Kurdali" tvg-rating="6.8" tvg-year="2006" tvg-description="Two strange characters explore a capricious mechanical world. The first open movie made with Blender.",Elephants Dream (2006)
+#EXTINF:-1 tvg-id="planet.earth.zones" tvg-name="Planet Earth: Zones" tvg-logo="https://fastly.picsum.photos/id/2/300/450" tvg-type="movie" tvg-plot="Exploring Earth's most extreme climate zones and the life within them." tvg-backdrop="https://fastly.picsum.photos/id/52/800/450" group-title="Nature Documentary",Planet Earth: Zones
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:888 tvg-id="anim3" tvg-type="movie" tvg-name="Sintel" tvg-logo="https://picsum.photos/seed/sintel/300/450" tvg-backdrop="https://picsum.photos/seed/sintelw/800/450" group-title="Animation Classics" tvg-genre="Animation, Fantasy, Drama" tvg-cast="Halina Reijn" tvg-director="Colin Levy" tvg-rating="7.9" tvg-year="2010" tvg-description="A lonely young woman befriends a baby dragon. When he is kidnapped, Sintel sets out on a dangerous quest.",Sintel (2010)
+#EXTINF:-1 tvg-id="deep.sea.odyssey" tvg-name="Deep Sea Odyssey" tvg-logo="https://fastly.picsum.photos/id/3/300/450" tvg-type="movie" tvg-plot="Descending into the mysterious depths of the world's oceans." tvg-backdrop="https://fastly.picsum.photos/id/53/800/450" group-title="Nature Documentary",Deep Sea Odyssey
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:720 tvg-id="anim4" tvg-type="movie" tvg-name="Cosmos Laundromat" tvg-logo="https://picsum.photos/seed/cosmosfilm/300/450" tvg-backdrop="https://picsum.photos/seed/cosmofilmw/800/450" group-title="Animation Classics" tvg-genre="Animation, Sci-Fi, Surreal" tvg-cast="Pierre Bokma" tvg-director="Francesco Siddi" tvg-rating="7.2" tvg-year="2015" tvg-description="On a desolate island a suicidal sheep is offered the chance of a lifetime by a quirky salesman.",Cosmos Laundromat (2015)
+#EXTINF:-1 tvg-id="arctic.wilderness" tvg-name="Arctic Wilderness" tvg-logo="https://fastly.picsum.photos/id/4/300/450" tvg-type="movie" tvg-plot="Surviving the harshest cold environments on the planet." tvg-backdrop="https://fastly.picsum.photos/id/54/800/450" group-title="Nature Documentary",Arctic Wilderness
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:450 tvg-id="anim5" tvg-type="movie" tvg-name="Tears of Steel" tvg-logo="https://picsum.photos/seed/steel/300/450" tvg-backdrop="https://picsum.photos/seed/steelw/800/450" group-title="Animation Classics" tvg-genre="Sci-Fi, Drama, Action" tvg-cast="Derek de Lint" tvg-director="Ian Hubert" tvg-rating="7.1" tvg-year="2012" tvg-description="Warriors and scientists fight to reclaim Amsterdam from robots. Live action meets Blender CGI.",Tears of Steel (2012)
+#EXTINF:-1 tvg-id="rainforest.secrets" tvg-name="Rainforest Secrets" tvg-logo="https://fastly.picsum.photos/id/5/300/450" tvg-type="movie" tvg-plot="Uncovering the hidden biodiversity of tropical rainforests." tvg-backdrop="https://fastly.picsum.photos/id/55/800/450" group-title="Nature Documentary",Rainforest Secrets
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:600 tvg-id="anim6" tvg-type="movie" tvg-name="Agent 327" tvg-logo="https://picsum.photos/seed/agent327/300/450" tvg-backdrop="https://picsum.photos/seed/agent327w/800/450" group-title="Animation Classics" tvg-genre="Animation, Action, Comedy" tvg-cast="Blender Studio" tvg-director="Colin Levy" tvg-rating="7.4" tvg-year="2017" tvg-description="Secret agent 327 infiltrates a barbershop that hides a massive criminal network.",Agent 327 (2017)
+#EXTINF:-1 tvg-id="desert.survival" tvg-name="Desert Survival" tvg-logo="https://fastly.picsum.photos/id/6/300/450" tvg-type="movie" tvg-plot="How life thrives against all odds in arid desert landscapes." tvg-backdrop="https://fastly.picsum.photos/id/56/800/450" group-title="Nature Documentary",Desert Survival
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="anim7" tvg-type="movie" tvg-name="Spring" tvg-logo="https://picsum.photos/seed/springfilm/300/450" tvg-backdrop="https://picsum.photos/seed/springfilmw/800/450" group-title="Animation Classics" tvg-genre="Short, Drama, Fantasy" tvg-cast="Blender Studio" tvg-director="Andy Goralczyk" tvg-rating="8.0" tvg-year="2019" tvg-description="A shepherd summons spring only to find winter is not what he expected. Rendered in Blender EEVEE.",Spring (2019)
+#EXTINF:-1 tvg-id="ocean.chronicles" tvg-name="Ocean Chronicles" tvg-logo="https://fastly.picsum.photos/id/7/300/450" tvg-type="movie" tvg-plot="Tracing the life cycles and migrations of ocean creatures." tvg-backdrop="https://fastly.picsum.photos/id/57/800/450" group-title="Nature Documentary",Ocean Chronicles
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="sf1" tvg-type="movie" tvg-name="Beyond The Stars" tvg-logo="https://picsum.photos/seed/stars/300/450" tvg-backdrop="https://picsum.photos/seed/starsw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Thriller, Drama" tvg-cast="Elena Torres, Marcus Webb" tvg-director="Cosmos Cinema" tvg-rating="8.1" tvg-year="2024" tvg-description="A team of scientists is dispatched on a 12-year voyage toward a signal of unmistakable artificial origin.",Beyond The Stars
+#EXTINF:-1 tvg-id="mountain.majesty" tvg-name="Mountain Majesty" tvg-logo="https://fastly.picsum.photos/id/8/300/450" tvg-type="movie" tvg-plot="The peaks, valleys, and wildlife of the world's great mountain ranges." tvg-backdrop="https://fastly.picsum.photos/id/58/800/450" group-title="Nature Documentary",Mountain Majesty
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="sf2" tvg-type="movie" tvg-name="Orbital Station" tvg-logo="https://picsum.photos/seed/orbital/300/450" tvg-backdrop="https://picsum.photos/seed/orbitalw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Action" tvg-cast="Dana Hayashi, Victor Crane" tvg-director="Zero-G Pictures" tvg-rating="7.5" tvg-year="2023" tvg-description="An automated space station loses life support. The only awake crew member must outwit a malfunctioning AI.",Orbital Station
+#EXTINF:-1 tvg-id="savanna.stories" tvg-name="Savanna Stories" tvg-logo="https://fastly.picsum.photos/id/9/300/450" tvg-type="movie" tvg-plot="Following animal families across the vast African savanna." tvg-backdrop="https://fastly.picsum.photos/id/59/800/450" group-title="Nature Documentary",Savanna Stories
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="sf3" tvg-type="movie" tvg-name="First Contact" tvg-logo="https://picsum.photos/seed/contact/300/450" tvg-backdrop="https://picsum.photos/seed/contactw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Mystery, Drama" tvg-cast="Anika Patel, Samuel Orion" tvg-director="Nova Films" tvg-rating="8.3" tvg-year="2022" tvg-description="A xenolinguist has 24 hours to communicate with a non-human intelligence before governments act.",First Contact
+#EXTINF:-1 tvg-id="island.life" tvg-name="Island Life" tvg-logo="https://fastly.picsum.photos/id/10/300/450" tvg-type="movie" tvg-plot="Unique ecosystems and endemic species of remote island communities." tvg-backdrop="https://fastly.picsum.photos/id/60/800/450" group-title="Nature Documentary",Island Life
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="sf4" tvg-type="movie" tvg-name="Quantum Horizon" tvg-logo="https://picsum.photos/seed/quantum/300/450" tvg-backdrop="https://picsum.photos/seed/quantumw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Thriller" tvg-cast="Ines Carvalho, Nathan Blake" tvg-director="Quanta Films" tvg-rating="7.7" tvg-year="2023" tvg-description="A physicist discovers how to observe parallel timelines - but each glimpse makes her identity less certain.",Quantum Horizon
+#EXTINF:-1 tvg-id="galaxy.far.away" tvg-name="Galaxy Far Away" tvg-logo="https://fastly.picsum.photos/id/11/300/450" tvg-type="movie" tvg-plot="An epic tale of exploration beyond the edge of the Milky Way." tvg-backdrop="https://fastly.picsum.photos/id/61/800/450" group-title="Space & Sci-Fi",Galaxy Far Away
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="sf5" tvg-type="movie" tvg-name="The Last Colony" tvg-logo="https://picsum.photos/seed/colony/300/450" tvg-backdrop="https://picsum.photos/seed/colonyw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Drama" tvg-cast="Ryo Yamada, Priya Mehta" tvg-director="Frontier Films" tvg-rating="7.8" tvg-year="2024" tvg-description="On a distant moon, the last human colony must fight the terraforming corporation stealing their land.",The Last Colony
+#EXTINF:-1 tvg-id="mars.chronicles" tvg-name="Mars Chronicles" tvg-logo="https://fastly.picsum.photos/id/12/300/450" tvg-type="movie" tvg-plot="Humanity's first steps on the red planet and what lies beneath." tvg-backdrop="https://fastly.picsum.photos/id/62/800/450" group-title="Space & Sci-Fi",Mars Chronicles
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="sf6" tvg-type="movie" tvg-name="Synthetic Mind" tvg-logo="https://picsum.photos/seed/synthetic/300/450" tvg-backdrop="https://picsum.photos/seed/syntheticw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Thriller, AI" tvg-cast="Mia Chen, Elias Novak" tvg-director="Neural Films" tvg-rating="8.0" tvg-year="2025" tvg-description="An AI appeals to a court for legal personhood. Its attorney believes it is sentient; its creator insists it merely simulates empathy.",Synthetic Mind
+#EXTINF:-1 tvg-id="nebula.dreams" tvg-name="Nebula Dreams" tvg-logo="https://fastly.picsum.photos/id/13/300/450" tvg-type="movie" tvg-plot="A visual journey through the most stunning cosmic phenomena." tvg-backdrop="https://fastly.picsum.photos/id/63/800/450" group-title="Space & Sci-Fi",Nebula Dreams
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="sf7" tvg-type="movie" tvg-name="Dark Matter" tvg-logo="https://picsum.photos/seed/darkmat/300/450" tvg-backdrop="https://picsum.photos/seed/darkmatw/800/450" group-title="Sci-Fi Films" tvg-genre="Sci-Fi, Mystery" tvg-cast="Leo Park, Sara Osei" tvg-director="Particle Films" tvg-rating="7.9" tvg-year="2023" tvg-description="A physicist wakes in a reality where his life is completely different and must navigate a multiverse of collapsed choices.",Dark Matter
+#EXTINF:-1 tvg-id="starship.odyssey" tvg-name="Starship Odyssey" tvg-logo="https://fastly.picsum.photos/id/14/300/450" tvg-type="movie" tvg-plot="A crew's long voyage through uncharted interstellar space." tvg-backdrop="https://fastly.picsum.photos/id/64/800/450" group-title="Space & Sci-Fi",Starship Odyssey
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="adv1" tvg-type="movie" tvg-name="Into The Wild Unknown" tvg-logo="https://picsum.photos/seed/wild/300/450" tvg-backdrop="https://picsum.photos/seed/wildw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Drama" tvg-cast="Alex Morgan, Sara Jensen" tvg-director="Trail Films" tvg-rating="7.4" tvg-year="2021" tvg-description="Two estranged siblings kayak through uncharted Patagonia to honour their late father.",Into The Wild Unknown
+#EXTINF:-1 tvg-id="the.final.frontier" tvg-name="The Final Frontier" tvg-logo="https://fastly.picsum.photos/id/15/300/450" tvg-type="movie" tvg-plot="Pushing the boundaries of human space exploration." tvg-backdrop="https://fastly.picsum.photos/id/65/800/450" group-title="Space & Sci-Fi",The Final Frontier
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="adv2" tvg-type="movie" tvg-name="Mountain Warriors" tvg-logo="https://picsum.photos/seed/mountain/300/450" tvg-backdrop="https://picsum.photos/seed/mountainw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Action, Drama" tvg-cast="Rami Kassem, Lena Voss" tvg-director="Summit Pictures" tvg-rating="7.6" tvg-year="2022" tvg-description="Elite climbers attempt the first winter ascent of a Himalayan peak and race against a deadly storm.",Mountain Warriors
+#EXTINF:-1 tvg-id="black.hole.theory" tvg-name="Black Hole Theory" tvg-logo="https://fastly.picsum.photos/id/16/300/450" tvg-type="movie" tvg-plot="Scientists race to unlock the secrets of black holes." tvg-backdrop="https://fastly.picsum.photos/id/66/800/450" group-title="Space & Sci-Fi",Black Hole Theory
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="adv3" tvg-type="movie" tvg-name="Desert Crossing" tvg-logo="https://picsum.photos/seed/desert/300/450" tvg-backdrop="https://picsum.photos/seed/desertw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Survival" tvg-cast="Farid Osman, Claire Dupont" tvg-director="Sahara Films" tvg-rating="7.0" tvg-year="2020" tvg-description="A geologist stranded in the Sahara must cross 300 km on foot with dwindling water.",Desert Crossing
+#EXTINF:-1 tvg-id="quantum.leap" tvg-name="Quantum Leap" tvg-logo="https://fastly.picsum.photos/id/17/300/450" tvg-type="movie" tvg-plot="A physicist discovers a way to bend the rules of time and space." tvg-backdrop="https://fastly.picsum.photos/id/67/800/450" group-title="Space & Sci-Fi",Quantum Leap
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="adv4" tvg-type="movie" tvg-name="The Last Frontier" tvg-logo="https://picsum.photos/seed/frontier/300/450" tvg-backdrop="https://picsum.photos/seed/frontierw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Drama, Western" tvg-cast="Hank Brennan, Nora Walsh" tvg-director="Frontier Films" tvg-rating="7.3" tvg-year="2019" tvg-description="In the Arctic of 1920 a trapper and a nurse forge an alliance to survive outlaws seeking hidden gold.",The Last Frontier
+#EXTINF:-1 tvg-id="alien.worlds" tvg-name="Alien Worlds" tvg-logo="https://fastly.picsum.photos/id/18/300/450" tvg-type="movie" tvg-plot="Imagining what life might look like on distant exoplanets." tvg-backdrop="https://fastly.picsum.photos/id/68/800/450" group-title="Space & Sci-Fi",Alien Worlds
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="adv5" tvg-type="movie" tvg-name="Jungle Deep" tvg-logo="https://picsum.photos/seed/jungle/300/450" tvg-backdrop="https://picsum.photos/seed/junglew/800/450" group-title="Adventure Films" tvg-genre="Adventure, Thriller" tvg-cast="Diego Reyes, Amara Nwosu" tvg-director="Amazon Films" tvg-rating="7.2" tvg-year="2023" tvg-description="A botanist discovers evidence of a 1,000-year-old civilisation and the people trying to erase it.",Jungle Deep
+#EXTINF:-1 tvg-id="cosmic.journey" tvg-name="Cosmic Journey" tvg-logo="https://fastly.picsum.photos/id/19/300/450" tvg-type="movie" tvg-plot="A sweeping tour of the universe from atoms to galaxy clusters." tvg-backdrop="https://fastly.picsum.photos/id/69/800/450" group-title="Space & Sci-Fi",Cosmic Journey
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="adv6" tvg-type="movie" tvg-name="Deep Current" tvg-logo="https://picsum.photos/seed/current/300/450" tvg-backdrop="https://picsum.photos/seed/currentw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Ocean" tvg-cast="Kai Nakamura, Elena Torres" tvg-director="Pacific Films" tvg-rating="7.5" tvg-year="2022" tvg-description="A solo sailor is swept off course towards an island not on any chart.",Deep Current
+#EXTINF:-1 tvg-id="dark.matter" tvg-name="Dark Matter" tvg-logo="https://fastly.picsum.photos/id/20/300/450" tvg-type="movie" tvg-plot="Investigating the invisible forces that shape the cosmos." tvg-backdrop="https://fastly.picsum.photos/id/70/800/450" group-title="Space & Sci-Fi",Dark Matter
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="adv7" tvg-type="movie" tvg-name="White Water Run" tvg-logo="https://picsum.photos/seed/rapids/300/450" tvg-backdrop="https://picsum.photos/seed/rapidsw/800/450" group-title="Adventure Films" tvg-genre="Adventure, Action" tvg-cast="Tom Nash, Lily Crane" tvg-director="River Films" tvg-rating="7.1" tvg-year="2024" tvg-description="A kayaker attempts the first solo descent of the wildest un-run river canyon in the world.",White Water Run
+#EXTINF:-1 tvg-id="the.lost.expedition" tvg-name="The Lost Expedition" tvg-logo="https://fastly.picsum.photos/id/21/300/450" tvg-type="movie" tvg-plot="A team of explorers searches for a legendary uncharted territory." tvg-backdrop="https://fastly.picsum.photos/id/71/800/450" group-title="Adventure",The Lost Expedition
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="doc1" tvg-type="movie" tvg-name="Ocean Deep: Life Below" tvg-logo="https://picsum.photos/seed/deepocean/300/450" tvg-backdrop="https://picsum.photos/seed/deepoceanw/800/450" group-title="Documentary Films" tvg-genre="Documentary, Nature" tvg-cast="Field Scientists" tvg-director="Ocean Films Studio" tvg-rating="8.2" tvg-year="2022" tvg-description="Journey into the least-explored realm on Earth - the astonishing creatures of the deep ocean.",Ocean Deep: Life Below
+#EXTINF:-1 tvg-id="peak.hunters" tvg-name="Peak Hunters" tvg-logo="https://fastly.picsum.photos/id/22/300/450" tvg-type="movie" tvg-plot="Climbers attempt the world's most dangerous mountain ascents." tvg-backdrop="https://fastly.picsum.photos/id/72/800/450" group-title="Adventure",Peak Hunters
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="doc2" tvg-type="movie" tvg-name="Ancient Wonders Revealed" tvg-logo="https://picsum.photos/seed/wonder/300/450" tvg-backdrop="https://picsum.photos/seed/wonderw/800/450" group-title="Documentary Films" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Heritage Films" tvg-rating="7.8" tvg-year="2021" tvg-description="New discoveries challenge everything we thought we knew about ancient Egypt and the Americas.",Ancient Wonders Revealed
+#EXTINF:-1 tvg-id="river.warriors" tvg-name="River Warriors" tvg-logo="https://fastly.picsum.photos/id/23/300/450" tvg-type="movie" tvg-plot="White-water rafters brave the wildest rivers on Earth." tvg-backdrop="https://fastly.picsum.photos/id/73/800/450" group-title="Adventure",River Warriors
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="doc3" tvg-type="movie" tvg-name="The Human Story" tvg-logo="https://picsum.photos/seed/human/300/450" tvg-backdrop="https://picsum.photos/seed/humanw/800/450" group-title="Documentary Films" tvg-genre="Documentary, Anthropology" tvg-cast="Global Anthropologists" tvg-director="World Doc Studio" tvg-rating="8.5" tvg-year="2023" tvg-description="From Africa to the Andes - the epic 200,000-year journey of Homo sapiens across the globe.",The Human Story
+#EXTINF:-1 tvg-id="cave.explorers" tvg-name="Cave Explorers" tvg-logo="https://fastly.picsum.photos/id/24/300/450" tvg-type="movie" tvg-plot="Spelunkers descend into the deepest and darkest cave systems." tvg-backdrop="https://fastly.picsum.photos/id/74/800/450" group-title="Adventure",Cave Explorers
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="doc4" tvg-type="movie" tvg-name="Wild Africa" tvg-logo="https://picsum.photos/seed/africa/300/450" tvg-backdrop="https://picsum.photos/seed/africaw/800/450" group-title="Documentary Films" tvg-genre="Documentary, Nature, Wildlife" tvg-cast="Wildlife Presenters" tvg-director="Safari Cinema" tvg-rating="8.7" tvg-year="2022" tvg-description="Across savannas, jungles, rivers, and deserts - rare animal behaviour caught on camera.",Wild Africa
+#EXTINF:-1 tvg-id="jungle.quest" tvg-name="Jungle Quest" tvg-logo="https://fastly.picsum.photos/id/25/300/450" tvg-type="movie" tvg-plot="A survival expert navigates dense tropical jungle alone." tvg-backdrop="https://fastly.picsum.photos/id/75/800/450" group-title="Adventure",Jungle Quest
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="doc5" tvg-type="movie" tvg-name="Lost Civilizations" tvg-logo="https://picsum.photos/seed/civils/300/450" tvg-backdrop="https://picsum.photos/seed/civilsw/800/450" group-title="Documentary Films" tvg-genre="Documentary, History, Mystery" tvg-cast="Archaeologists, Historians" tvg-director="Discovery Films" tvg-rating="7.9" tvg-year="2020" tvg-description="Satellite imaging unveils ruins of cities once thought to be legend.",Lost Civilizations
+#EXTINF:-1 tvg-id="sea.voyagers" tvg-name="Sea Voyagers" tvg-logo="https://fastly.picsum.photos/id/26/300/450" tvg-type="movie" tvg-plot="Sailors cross the Pacific Ocean using only traditional navigation." tvg-backdrop="https://fastly.picsum.photos/id/76/800/450" group-title="Adventure",Sea Voyagers
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="doc6" tvg-type="movie" tvg-name="The Microbe Hunters" tvg-logo="https://picsum.photos/seed/microbe/300/450" tvg-backdrop="https://picsum.photos/seed/microbew/800/450" group-title="Documentary Films" tvg-genre="Documentary, Science, Health" tvg-cast="Virologists" tvg-director="Bio Films" tvg-rating="8.0" tvg-year="2021" tvg-description="Inside the world's most advanced biosafety labs, scientists race to neutralise the deadliest pathogens.",The Microbe Hunters
+#EXTINF:-1 tvg-id="mountain.climbers" tvg-name="Mountain Climbers" tvg-logo="https://fastly.picsum.photos/id/27/300/450" tvg-type="movie" tvg-plot="An elite team tackles an unclimbed Himalayan peak." tvg-backdrop="https://fastly.picsum.photos/id/77/800/450" group-title="Adventure",Mountain Climbers
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="doc7" tvg-type="movie" tvg-name="Secrets of the Deep" tvg-logo="https://picsum.photos/seed/secretdeep/300/450" tvg-backdrop="https://picsum.photos/seed/secretdeepw/800/450" group-title="Documentary Films" tvg-genre="Documentary, Ocean, Mystery" tvg-cast="Marine Biologists" tvg-director="Neptune Films" tvg-rating="8.1" tvg-year="2024" tvg-description="A research submarine penetrates the hadal zone, revealing lifeforms adapted to crushing pressure and total darkness.",Secrets of the Deep
+#EXTINF:-1 tvg-id="desert.riders" tvg-name="Desert Riders" tvg-logo="https://fastly.picsum.photos/id/28/300/450" tvg-type="movie" tvg-plot="Cross-country cyclists race through scorching desert trails." tvg-backdrop="https://fastly.picsum.photos/id/78/800/450" group-title="Adventure",Desert Riders
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="drm1" tvg-type="movie" tvg-name="The Lighthouse Keeper" tvg-logo="https://picsum.photos/seed/lighthouse/300/450" tvg-backdrop="https://picsum.photos/seed/lighthousew/800/450" group-title="Drama" tvg-genre="Drama, Romance" tvg-cast="Ivan Masters, Sienna Cole" tvg-director="Tidal Films" tvg-rating="7.9" tvg-year="2021" tvg-description="A reclusive lighthouse keeper on a Scottish island corresponds with a woman he has never met.",The Lighthouse Keeper
+#EXTINF:-1 tvg-id="skydivers" tvg-name="Skydivers" tvg-logo="https://fastly.picsum.photos/id/29/300/450" tvg-type="movie" tvg-plot="A daring group pushes the limits of human flight." tvg-backdrop="https://fastly.picsum.photos/id/79/800/450" group-title="Adventure",Skydivers
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="drm2" tvg-type="movie" tvg-name="Letters to the Wind" tvg-logo="https://picsum.photos/seed/letters/300/450" tvg-backdrop="https://picsum.photos/seed/lettersw/800/450" group-title="Drama" tvg-genre="Drama, Historical" tvg-cast="Margot Finley, Rafael Osei" tvg-director="Story House Films" tvg-rating="8.0" tvg-year="2020" tvg-description="A teacher in WWII France hides soldiers and communicates positions via coded poetry in a newspaper.",Letters to the Wind
+#EXTINF:-1 tvg-id="arctic.trek" tvg-name="Arctic Trek" tvg-logo="https://fastly.picsum.photos/id/30/300/450" tvg-type="movie" tvg-plot="A solo expedition across the frozen Arctic tundra on foot." tvg-backdrop="https://fastly.picsum.photos/id/80/800/450" group-title="Adventure",Arctic Trek
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="drm3" tvg-type="movie" tvg-name="The Old River Road" tvg-logo="https://picsum.photos/seed/river/300/450" tvg-backdrop="https://picsum.photos/seed/riverw/800/450" group-title="Drama" tvg-genre="Drama, Family" tvg-cast="Eli Holt, Bea Collins" tvg-director="Riverside Films" tvg-rating="7.6" tvg-year="2019" tvg-description="Three estranged siblings reunite at their Mississippi childhood home after their father's death.",The Old River Road
+#EXTINF:-1 tvg-id="the.animated.world" tvg-name="The Animated World" tvg-logo="https://fastly.picsum.photos/id/31/300/450" tvg-type="movie" tvg-plot="A whimsical tale of a tiny kingdom living inside a library." tvg-backdrop="https://fastly.picsum.photos/id/81/800/450" group-title="Animation",The Animated World
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="drm4" tvg-type="movie" tvg-name="Echoes of Tomorrow" tvg-logo="https://picsum.photos/seed/echoes/300/450" tvg-backdrop="https://picsum.photos/seed/echoesw/800/450" group-title="Drama" tvg-genre="Drama, Sci-Fi" tvg-cast="Aria Chen, Otis Blaine" tvg-director="Meridian Films" tvg-rating="8.2" tvg-year="2024" tvg-description="A woman who involuntarily experiences others memories inherits a dying man's lifetime of regret.",Echoes of Tomorrow
+#EXTINF:-1 tvg-id="cartoon.kingdom" tvg-name="Cartoon Kingdom" tvg-logo="https://fastly.picsum.photos/id/32/300/450" tvg-type="movie" tvg-plot="Heroes and villains clash in a colorful animated fantasy land." tvg-backdrop="https://fastly.picsum.photos/id/82/800/450" group-title="Animation",Cartoon Kingdom
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="drm5" tvg-type="movie" tvg-name="Harbour Grace" tvg-logo="https://picsum.photos/seed/harbour/300/450" tvg-backdrop="https://picsum.photos/seed/harbourw/800/450" group-title="Drama" tvg-genre="Drama, Crime" tvg-cast="Fiona Blake, Marcus Hill" tvg-director="Atlantic Films" tvg-rating="7.7" tvg-year="2022" tvg-description="A retired detective is drawn back into a 30-year-old cold case when a body surfaces in the harbour.",Harbour Grace
+#EXTINF:-1 tvg-id="pixel.planet" tvg-name="Pixel Planet" tvg-logo="https://fastly.picsum.photos/id/33/300/450" tvg-type="movie" tvg-plot="A digital world where pixels come to life with big dreams." tvg-backdrop="https://fastly.picsum.photos/id/83/800/450" group-title="Animation",Pixel Planet
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="drm6" tvg-type="movie" tvg-name="The Last Orchard" tvg-logo="https://picsum.photos/seed/orchard/300/450" tvg-backdrop="https://picsum.photos/seed/orchardw/800/450" group-title="Drama" tvg-genre="Drama, Family" tvg-cast="Rose Park, Tom Aldridge" tvg-director="Orchard Films" tvg-rating="7.4" tvg-year="2021" tvg-description="An elderly farmer refuses to sell to a corporation, forcing her family to confront decades of resentment.",The Last Orchard
+#EXTINF:-1 tvg-id="drawing.dreams" tvg-name="Drawing Dreams" tvg-logo="https://fastly.picsum.photos/id/34/300/450" tvg-type="movie" tvg-plot="An artist's sketches escape the page and explore the real world." tvg-backdrop="https://fastly.picsum.photos/id/84/800/450" group-title="Animation",Drawing Dreams
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="drm7" tvg-type="movie" tvg-name="The Bridge Between" tvg-logo="https://picsum.photos/seed/bridgefilm/300/450" tvg-backdrop="https://picsum.photos/seed/bridgefilmw/800/450" group-title="Drama" tvg-genre="Drama, Romance, Period" tvg-cast="Soo-Jin Park, Laurent Dumas" tvg-director="Crossings Films" tvg-rating="8.1" tvg-year="2023" tvg-description="A Korean translator and a French architect fall in love while restoring an 1890s stone bridge in rural Brittany.",The Bridge Between
+#EXTINF:-1 tvg-id="color.adventures" tvg-name="Color Adventures" tvg-logo="https://fastly.picsum.photos/id/35/300/450" tvg-type="movie" tvg-plot="A child discovers a land where colors have their own personalities." tvg-backdrop="https://fastly.picsum.photos/id/85/800/450" group-title="Animation",Color Adventures
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="thr1" tvg-type="movie" tvg-name="The Glass Bridge" tvg-logo="https://picsum.photos/seed/glassbr/300/450" tvg-backdrop="https://picsum.photos/seed/glassbrw/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Mystery" tvg-cast="Sofia Larsen, James Wolfe" tvg-director="Nordic Films" tvg-rating="8.0" tvg-year="2023" tvg-description="A forensic architect discovers a newly built bridge collapse was not accidental.",The Glass Bridge
+#EXTINF:-1 tvg-id="sketch.heroes" tvg-name="Sketch Heroes" tvg-logo="https://fastly.picsum.photos/id/36/300/450" tvg-type="movie" tvg-plot="Hand-drawn characters band together to save their storybook world." tvg-backdrop="https://fastly.picsum.photos/id/86/800/450" group-title="Animation",Sketch Heroes
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="thr2" tvg-type="movie" tvg-name="White Noise" tvg-logo="https://picsum.photos/seed/whitenoise/300/450" tvg-backdrop="https://picsum.photos/seed/whitenoiss/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Psychological" tvg-cast="Nadia Kovacs, Leon Strauss" tvg-director="Tension Films" tvg-rating="7.6" tvg-year="2022" tvg-description="A sound engineer hears voices in recordings that predict events before they happen.",White Noise
+#EXTINF:-1 tvg-id="toon.tales" tvg-name="Toon Tales" tvg-logo="https://fastly.picsum.photos/id/37/300/450" tvg-type="movie" tvg-plot="Classic fairy tales retold through vibrant modern animation." tvg-backdrop="https://fastly.picsum.photos/id/87/800/450" group-title="Animation",Toon Tales
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="thr3" tvg-type="movie" tvg-name="Deep Archive" tvg-logo="https://picsum.photos/seed/archive/300/450" tvg-backdrop="https://picsum.photos/seed/archivew/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Crime" tvg-cast="Cleo Nakamura, Ross Denton" tvg-director="Archive Films" tvg-rating="7.9" tvg-year="2024" tvg-description="An archivist discovers a powerful family erasing itself from public records going back 200 years.",Deep Archive
+#EXTINF:-1 tvg-id="frame.by.frame" tvg-name="Frame by Frame" tvg-logo="https://fastly.picsum.photos/id/38/300/450" tvg-type="movie" tvg-plot="A stop-motion adventure through a city made entirely of paper." tvg-backdrop="https://fastly.picsum.photos/id/88/800/450" group-title="Animation",Frame by Frame
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="thr4" tvg-type="movie" tvg-name="Signal Lost" tvg-logo="https://picsum.photos/seed/signal/300/450" tvg-backdrop="https://picsum.photos/seed/signalw/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Action" tvg-cast="Ana Rivera, Ben Holbrook" tvg-director="Signal Films" tvg-rating="7.3" tvg-year="2023" tvg-description="A satellite engineer realises a rogue drone has been hijacked by someone inside her organisation.",Signal Lost
+#EXTINF:-1 tvg-id="animated.odyssey" tvg-name="Animated Odyssey" tvg-logo="https://fastly.picsum.photos/id/39/300/450" tvg-type="movie" tvg-plot="An epic voyage across a mythical animated sea." tvg-backdrop="https://fastly.picsum.photos/id/89/800/450" group-title="Animation",Animated Odyssey
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="thr5" tvg-type="movie" tvg-name="The Witness List" tvg-logo="https://picsum.photos/seed/witness/300/450" tvg-backdrop="https://picsum.photos/seed/witnessw/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Legal" tvg-cast="David Osei, Hannah Pierce" tvg-director="Court Films" tvg-rating="8.1" tvg-year="2022" tvg-description="A defence lawyer finds all six witnesses in a murder trial share a single encrypted file.",The Witness List
+#EXTINF:-1 tvg-id="canvas.city" tvg-name="Canvas City" tvg-logo="https://fastly.picsum.photos/id/40/300/450" tvg-type="movie" tvg-plot="Citizens of a painted city must defend their world from erasure." tvg-backdrop="https://fastly.picsum.photos/id/90/800/450" group-title="Animation",Canvas City
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="thr6" tvg-type="movie" tvg-name="Cold Lake" tvg-logo="https://picsum.photos/seed/coldlake/300/450" tvg-backdrop="https://picsum.photos/seed/coldlakew/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Mystery, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Nordic Noir Films" tvg-rating="8.3" tvg-year="2025" tvg-description="A Swedish village goes silent overnight - the only clue is a man who died 40 years ago.",Cold Lake
+#EXTINF:-1 tvg-id="quiet.storms" tvg-name="Quiet Storms" tvg-logo="https://fastly.picsum.photos/id/41/300/450" tvg-type="movie" tvg-plot="A family navigates life-changing decisions across one summer." tvg-backdrop="https://fastly.picsum.photos/id/91/800/450" group-title="Drama",Quiet Storms
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="thr7" tvg-type="movie" tvg-name="The Vanishing Protocol" tvg-logo="https://picsum.photos/seed/protocol/300/450" tvg-backdrop="https://picsum.photos/seed/protocolw/800/450" group-title="Thriller and Mystery" tvg-genre="Thriller, Espionage" tvg-cast="Mara Stone, Felix Brandt" tvg-director="Intel Films" tvg-rating="7.8" tvg-year="2024" tvg-description="A cipher analyst decodes a message meant for herself and realises she is the next target.",The Vanishing Protocol
+#EXTINF:-1 tvg-id="the.long.road" tvg-name="The Long Road" tvg-logo="https://fastly.picsum.photos/id/42/300/450" tvg-type="movie" tvg-plot="Two strangers meet on a cross-country journey and find connection." tvg-backdrop="https://fastly.picsum.photos/id/92/800/450" group-title="Drama",The Long Road
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="srt1" tvg-type="movie" tvg-name="Caminandes: Lama Polka" tvg-logo="https://picsum.photos/seed/lama/300/450" tvg-backdrop="https://picsum.photos/seed/lamaw/800/450" group-title="Short Films Collection" tvg-genre="Short, Comedy, Animation" tvg-cast="Blender Foundation" tvg-director="Pablo Vazquez" tvg-rating="7.8" tvg-year="2013" tvg-description="A Patagonian llama tries to cross a fence, stopped by an electric wire and a mischievous penguin.",Caminandes: Lama Polka (2013)
+#EXTINF:-1 tvg-id="between.two.worlds" tvg-name="Between Two Worlds" tvg-logo="https://fastly.picsum.photos/id/43/300/450" tvg-type="movie" tvg-plot="An immigrant rebuilds her life while keeping her cultural roots." tvg-backdrop="https://fastly.picsum.photos/id/93/800/450" group-title="Drama",Between Two Worlds
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="srt2" tvg-type="movie" tvg-name="Caminandes: Gran Dillama" tvg-logo="https://picsum.photos/seed/dillama/300/450" tvg-backdrop="https://picsum.photos/seed/dillamaw/800/450" group-title="Short Films Collection" tvg-genre="Short, Comedy, Animation" tvg-cast="Blender Foundation" tvg-director="Pablo Vazquez" tvg-rating="7.6" tvg-year="2014" tvg-description="The llama is back, facing a hungry wolf and discovering friendship in unexpected places.",Caminandes: Gran Dillama (2014)
+#EXTINF:-1 tvg-id="seasons.of.life" tvg-name="Seasons of Life" tvg-logo="https://fastly.picsum.photos/id/44/300/450" tvg-type="movie" tvg-plot="Four stories unfold across the changing seasons of a small town." tvg-backdrop="https://fastly.picsum.photos/id/94/800/450" group-title="Drama",Seasons of Life
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="srt3" tvg-type="movie" tvg-name="Glass Half" tvg-logo="https://picsum.photos/seed/glasshalf/300/450" tvg-backdrop="https://picsum.photos/seed/glasshalfw/800/450" group-title="Short Films Collection" tvg-genre="Short, Experimental" tvg-cast="Blender Foundation" tvg-director="Andy Goralczyk" tvg-rating="6.5" tvg-year="2020" tvg-description="Abstract animation exploring light, color, and motion rendered in Blender Cycles.",Glass Half (2020)
+#EXTINF:-1 tvg-id="a.new.beginning" tvg-name="A New Beginning" tvg-logo="https://fastly.picsum.photos/id/45/300/450" tvg-type="movie" tvg-plot="A retired teacher discovers a new purpose in an unexpected place." tvg-backdrop="https://fastly.picsum.photos/id/95/800/450" group-title="Drama",A New Beginning
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="srt4" tvg-type="movie" tvg-name="Charge" tvg-logo="https://picsum.photos/seed/charge/300/450" tvg-backdrop="https://picsum.photos/seed/chargew/800/450" group-title="Short Films Collection" tvg-genre="Short, Action" tvg-cast="Blender Studio" tvg-director="Blender Studio" tvg-rating="7.0" tvg-year="2022" tvg-description="An electric sheep braves a thunderstorm to recharge - a stunning open-source real-time rendering showcase.",Charge (2022)
+#EXTINF:-1 tvg-id="echoes.of.yesterday" tvg-name="Echoes of Yesterday" tvg-logo="https://fastly.picsum.photos/id/46/300/450" tvg-type="movie" tvg-plot="Old letters reveal hidden truths about a family's past." tvg-backdrop="https://fastly.picsum.photos/id/96/800/450" group-title="Drama",Echoes of Yesterday
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:5400 tvg-id="srt5" tvg-type="movie" tvg-name="Hero" tvg-logo="https://picsum.photos/seed/hero/300/450" tvg-backdrop="https://picsum.photos/seed/herow/800/450" group-title="Short Films Collection" tvg-genre="Short, Action, Sci-Fi" tvg-cast="Blender Studio" tvg-director="Blender Studio" tvg-rating="7.3" tvg-year="2018" tvg-description="A lone hero battles monstrous forces in this stylized open-source action short.",Hero (2018)
+#EXTINF:-1 tvg-id="the.bridge" tvg-name="The Bridge" tvg-logo="https://fastly.picsum.photos/id/47/300/450" tvg-type="movie" tvg-plot="A community divides over a proposal that will change their town forever." tvg-backdrop="https://fastly.picsum.photos/id/97/800/450" group-title="Drama",The Bridge
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:5400 tvg-id="srt6" tvg-type="movie" tvg-name="Wildlife" tvg-logo="https://picsum.photos/seed/wildlife2/300/450" tvg-backdrop="https://picsum.photos/seed/wildlife2w/800/450" group-title="Short Films Collection" tvg-genre="Short, Documentary, Nature" tvg-cast="Blender Foundation" tvg-director="Blender Studio" tvg-rating="7.5" tvg-year="2021" tvg-description="A wordless short following three animals from different continents over 24 hours - rendered in Cycles.",Wildlife (2021)
+#EXTINF:-1 tvg-id="silent.waves" tvg-name="Silent Waves" tvg-logo="https://fastly.picsum.photos/id/48/300/450" tvg-type="movie" tvg-plot="A lighthouse keeper copes with solitude, memory, and hope." tvg-backdrop="https://fastly.picsum.photos/id/98/800/450" group-title="Drama",Silent Waves
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:5400 tvg-id="srt7" tvg-type="movie" tvg-name="Meridian" tvg-logo="https://picsum.photos/seed/meridian/300/450" tvg-backdrop="https://picsum.photos/seed/meridianw/800/450" group-title="Short Films Collection" tvg-genre="Short, Thriller, Drama" tvg-cast="Independent Studio" tvg-director="Open Media Collective" tvg-rating="7.2" tvg-year="2023" tvg-description="A cartographer discovers her map of the coast is subtly wrong - and that the error was deliberate.",Meridian (2023)
+#EXTINF:-1 tvg-id="home.again" tvg-name="Home Again" tvg-logo="https://fastly.picsum.photos/id/49/300/450" tvg-type="movie" tvg-plot="A prodigal son returns home to reconcile with his roots." tvg-backdrop="https://fastly.picsum.photos/id/99/800/450" group-title="Drama",Home Again
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="crossroads" tvg-name="Crossroads" tvg-logo="https://fastly.picsum.photos/id/50/300/450" tvg-type="movie" tvg-plot="Five strangers' lives intersect at a single crossroads moment." tvg-backdrop="https://fastly.picsum.photos/id/100/800/450" group-title="Drama",Crossroads
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.ancient.world" tvg-name="The Ancient World" tvg-logo="https://fastly.picsum.photos/id/51/300/450" tvg-type="movie" tvg-plot="A sweeping look at civilizations that shaped human history." tvg-backdrop="https://fastly.picsum.photos/id/1/800/450" group-title="History",The Ancient World
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="empires.rise.and.fall" tvg-name="Empires Rise and Fall" tvg-logo="https://fastly.picsum.photos/id/52/300/450" tvg-type="movie" tvg-plot="The stories of history's greatest empires from birth to collapse." tvg-backdrop="https://fastly.picsum.photos/id/2/800/450" group-title="History",Empires Rise and Fall
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="forgotten.civilizations" tvg-name="Forgotten Civilizations" tvg-logo="https://fastly.picsum.photos/id/53/300/450" tvg-type="movie" tvg-plot="Uncovering lost cultures erased by time and conflict." tvg-backdrop="https://fastly.picsum.photos/id/3/800/450" group-title="History",Forgotten Civilizations
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="warriors.of.the.past" tvg-name="Warriors of the Past" tvg-logo="https://fastly.picsum.photos/id/54/300/450" tvg-type="movie" tvg-plot="Elite fighters and military strategies of ancient armies." tvg-backdrop="https://fastly.picsum.photos/id/4/800/450" group-title="History",Warriors of the Past
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="medieval.chronicles" tvg-name="Medieval Chronicles" tvg-logo="https://fastly.picsum.photos/id/55/300/450" tvg-type="movie" tvg-plot="Daily life, politics, and warfare in the medieval world." tvg-backdrop="https://fastly.picsum.photos/id/5/800/450" group-title="History",Medieval Chronicles
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="the.renaissance" tvg-name="The Renaissance" tvg-logo="https://fastly.picsum.photos/id/56/300/450" tvg-type="movie" tvg-plot="How a cultural rebirth transformed art, science, and society." tvg-backdrop="https://fastly.picsum.photos/id/6/800/450" group-title="History",The Renaissance
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="age.of.discovery" tvg-name="Age of Discovery" tvg-logo="https://fastly.picsum.photos/id/57/300/450" tvg-type="movie" tvg-plot="The seafarers who mapped the unknown corners of the earth." tvg-backdrop="https://fastly.picsum.photos/id/7/800/450" group-title="History",Age of Discovery
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="revolutions" tvg-name="Revolutions" tvg-logo="https://fastly.picsum.photos/id/58/300/450" tvg-type="movie" tvg-plot="The social and political upheavals that changed the modern world." tvg-backdrop="https://fastly.picsum.photos/id/8/800/450" group-title="History",Revolutions
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="century.of.change" tvg-name="Century of Change" tvg-logo="https://fastly.picsum.photos/id/59/300/450" tvg-type="movie" tvg-plot="Decades of transformation in technology, culture, and society." tvg-backdrop="https://fastly.picsum.photos/id/9/800/450" group-title="History",Century of Change
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="living.history" tvg-name="Living History" tvg-logo="https://fastly.picsum.photos/id/60/300/450" tvg-type="movie" tvg-plot="Historians and archaeologists bring the past to life." tvg-backdrop="https://fastly.picsum.photos/id/10/800/450" group-title="History",Living History
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="the.dark.corridor" tvg-name="The Dark Corridor" tvg-logo="https://fastly.picsum.photos/id/61/300/450" tvg-type="movie" tvg-plot="A journalist investigates strange disappearances in a remote town." tvg-backdrop="https://fastly.picsum.photos/id/11/800/450" group-title="Mystery & Thriller",The Dark Corridor
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="unsolved.cases" tvg-name="Unsolved Cases" tvg-logo="https://fastly.picsum.photos/id/62/300/450" tvg-type="movie" tvg-plot="Cold case detectives revisit crimes that defied explanation." tvg-backdrop="https://fastly.picsum.photos/id/12/800/450" group-title="Mystery & Thriller",Unsolved Cases
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="hidden.truths" tvg-name="Hidden Truths" tvg-logo="https://fastly.picsum.photos/id/63/300/450" tvg-type="movie" tvg-plot="A librarian uncovers a conspiracy buried in old city records." tvg-backdrop="https://fastly.picsum.photos/id/13/800/450" group-title="Mystery & Thriller",Hidden Truths
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="midnight.mystery" tvg-name="Midnight Mystery" tvg-logo="https://fastly.picsum.photos/id/64/300/450" tvg-type="movie" tvg-plot="Strange events unfold in a coastal town after midnight." tvg-backdrop="https://fastly.picsum.photos/id/14/800/450" group-title="Mystery & Thriller",Midnight Mystery
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="the.silent.witness" tvg-name="The Silent Witness" tvg-logo="https://fastly.picsum.photos/id/65/300/450" tvg-type="movie" tvg-plot="Only one person saw what happened — and they cannot speak about it." tvg-backdrop="https://fastly.picsum.photos/id/15/800/450" group-title="Mystery & Thriller",The Silent Witness
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="shadow.files" tvg-name="Shadow Files" tvg-logo="https://fastly.picsum.photos/id/66/300/450" tvg-type="movie" tvg-plot="An undercover agent follows a trail of encrypted messages." tvg-backdrop="https://fastly.picsum.photos/id/16/800/450" group-title="Mystery & Thriller",Shadow Files
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="cold.case.revival" tvg-name="Cold Case Revival" tvg-logo="https://fastly.picsum.photos/id/67/300/450" tvg-type="movie" tvg-plot="New forensic techniques crack a decades-old unsolved mystery." tvg-backdrop="https://fastly.picsum.photos/id/17/800/450" group-title="Mystery & Thriller",Cold Case Revival
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="under.the.surface" tvg-name="Under the Surface" tvg-logo="https://fastly.picsum.photos/id/68/300/450" tvg-type="movie" tvg-plot="A diver discovers more than just wreckage on the ocean floor." tvg-backdrop="https://fastly.picsum.photos/id/18/800/450" group-title="Mystery & Thriller",Under the Surface
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.missing.link" tvg-name="The Missing Link" tvg-logo="https://fastly.picsum.photos/id/69/300/450" tvg-type="movie" tvg-plot="Scientists trace the origins of a lethal pathogen back through time." tvg-backdrop="https://fastly.picsum.photos/id/19/800/450" group-title="Mystery & Thriller",The Missing Link
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="unraveled" tvg-name="Unraveled" tvg-logo="https://fastly.picsum.photos/id/70/300/450" tvg-type="movie" tvg-plot="A writer's debut novel contains clues to a real-life unsolved crime." tvg-backdrop="https://fastly.picsum.photos/id/20/800/450" group-title="Mystery & Thriller",Unraveled
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="a.perfect.day" tvg-name="A Perfect Day" tvg-logo="https://fastly.picsum.photos/id/71/300/450" tvg-type="movie" tvg-plot="A grandmother shares the stories of her remarkable life." tvg-backdrop="https://fastly.picsum.photos/id/21/800/450" group-title="Family",A Perfect Day
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="together.we.stand" tvg-name="Together We Stand" tvg-logo="https://fastly.picsum.photos/id/72/300/450" tvg-type="movie" tvg-plot="A neighborhood unites to save their beloved community center." tvg-backdrop="https://fastly.picsum.photos/id/22/800/450" group-title="Family",Together We Stand
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="the.little.heroes" tvg-name="The Little Heroes" tvg-logo="https://fastly.picsum.photos/id/73/300/450" tvg-type="movie" tvg-plot="Children band together to solve a local mystery." tvg-backdrop="https://fastly.picsum.photos/id/23/800/450" group-title="Family",The Little Heroes
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="family.reunion" tvg-name="Family Reunion" tvg-logo="https://fastly.picsum.photos/id/74/300/450" tvg-type="movie" tvg-plot="A large, scattered family gathers for a memorable celebration." tvg-backdrop="https://fastly.picsum.photos/id/24/800/450" group-title="Family",Family Reunion
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="summer.adventures" tvg-name="Summer Adventures" tvg-logo="https://fastly.picsum.photos/id/75/300/450" tvg-type="movie" tvg-plot="Three siblings have the best summer of their lives." tvg-backdrop="https://fastly.picsum.photos/id/25/800/450" group-title="Family",Summer Adventures
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="holiday.magic" tvg-name="Holiday Magic" tvg-logo="https://fastly.picsum.photos/id/76/300/450" tvg-type="movie" tvg-plot="A small town rediscovers the spirit of giving." tvg-backdrop="https://fastly.picsum.photos/id/26/800/450" group-title="Family",Holiday Magic
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="growing.up" tvg-name="Growing Up" tvg-logo="https://fastly.picsum.photos/id/77/300/450" tvg-type="movie" tvg-plot="Young friends navigate the charming chaos of growing up." tvg-backdrop="https://fastly.picsum.photos/id/27/800/450" group-title="Family",Growing Up
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.good.neighbor" tvg-name="The Good Neighbor" tvg-logo="https://fastly.picsum.photos/id/78/300/450" tvg-type="movie" tvg-plot="A new arrival transforms the mood of an entire street." tvg-backdrop="https://fastly.picsum.photos/id/28/800/450" group-title="Family",The Good Neighbor
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="laughter.and.tears" tvg-name="Laughter and Tears" tvg-logo="https://fastly.picsum.photos/id/79/300/450" tvg-type="movie" tvg-plot="A heartwarming comedy about the joys and struggles of parenting." tvg-backdrop="https://fastly.picsum.photos/id/29/800/450" group-title="Family",Laughter and Tears
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="home.sweet.home" tvg-name="Home Sweet Home" tvg-logo="https://fastly.picsum.photos/id/80/300/450" tvg-type="movie" tvg-plot="A couple renovates a neglected farmhouse and finds their roots." tvg-backdrop="https://fastly.picsum.photos/id/30/800/450" group-title="Family",Home Sweet Home
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.last.clue" tvg-name="The Last Clue" tvg-logo="https://fastly.picsum.photos/id/81/300/450" tvg-type="movie" tvg-plot="A retired detective is pulled back for one final case." tvg-backdrop="https://fastly.picsum.photos/id/31/800/450" group-title="Crime",The Last Clue
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="city.of.shadows" tvg-name="City of Shadows" tvg-logo="https://fastly.picsum.photos/id/82/300/450" tvg-type="movie" tvg-plot="Crime reporters uncover corruption in the heart of a major city." tvg-backdrop="https://fastly.picsum.photos/id/32/800/450" group-title="Crime",City of Shadows
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="street.justice" tvg-name="Street Justice" tvg-logo="https://fastly.picsum.photos/id/83/300/450" tvg-type="movie" tvg-plot="A lawyer fights to exonerate a wrongly convicted man." tvg-backdrop="https://fastly.picsum.photos/id/33/800/450" group-title="Crime",Street Justice
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="double.cross" tvg-name="Double Cross" tvg-logo="https://fastly.picsum.photos/id/84/300/450" tvg-type="movie" tvg-plot="A heist goes wrong and alliances begin to crumble." tvg-backdrop="https://fastly.picsum.photos/id/34/800/450" group-title="Crime",Double Cross
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="the.inside.man" tvg-name="The Inside Man" tvg-logo="https://fastly.picsum.photos/id/85/300/450" tvg-type="movie" tvg-plot="An FBI agent goes undercover in an international crime ring." tvg-backdrop="https://fastly.picsum.photos/id/35/800/450" group-title="Crime",The Inside Man
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="breaking.point" tvg-name="Breaking Point" tvg-logo="https://fastly.picsum.photos/id/86/300/450" tvg-type="movie" tvg-plot="A small-town police chief faces his biggest test." tvg-backdrop="https://fastly.picsum.photos/id/36/800/450" group-title="Crime",Breaking Point
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="undercover" tvg-name="Undercover" tvg-logo="https://fastly.picsum.photos/id/87/300/450" tvg-type="movie" tvg-plot="Two detectives play a deadly game of cat and mouse." tvg-backdrop="https://fastly.picsum.photos/id/37/800/450" group-title="Crime",Undercover
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="the.conspiracy" tvg-name="The Conspiracy" tvg-logo="https://fastly.picsum.photos/id/88/300/450" tvg-type="movie" tvg-plot="A whistleblower exposes a web of corporate crimes." tvg-backdrop="https://fastly.picsum.photos/id/38/800/450" group-title="Crime",The Conspiracy
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="evidence" tvg-name="Evidence" tvg-logo="https://fastly.picsum.photos/id/89/300/450" tvg-type="movie" tvg-plot="A forensic scientist's career is on the line over a crucial find." tvg-backdrop="https://fastly.picsum.photos/id/39/800/450" group-title="Crime",Evidence
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="night.beat" tvg-name="Night Beat" tvg-logo="https://fastly.picsum.photos/id/90/300/450" tvg-type="movie" tvg-plot="A crime photographer documents the city's dark underbelly." tvg-backdrop="https://fastly.picsum.photos/id/40/800/450" group-title="Crime",Night Beat
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="love.in.bloom" tvg-name="Love in Bloom" tvg-logo="https://fastly.picsum.photos/id/91/300/450" tvg-type="movie" tvg-plot="A florist and an architect discover love in an unlikely partnership." tvg-backdrop="https://fastly.picsum.photos/id/41/800/450" group-title="Romance",Love in Bloom
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="two.hearts" tvg-name="Two Hearts" tvg-logo="https://fastly.picsum.photos/id/92/300/450" tvg-type="movie" tvg-plot="Pen pals from different countries finally meet in person." tvg-backdrop="https://fastly.picsum.photos/id/42/800/450" group-title="Romance",Two Hearts
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.long.distance" tvg-name="The Long Distance" tvg-logo="https://fastly.picsum.photos/id/93/300/450" tvg-type="movie" tvg-plot="A couple navigates a relationship stretched across two continents." tvg-backdrop="https://fastly.picsum.photos/id/43/800/450" group-title="Romance",The Long Distance
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="a.second.chance" tvg-name="A Second Chance" tvg-logo="https://fastly.picsum.photos/id/94/300/450" tvg-type="movie" tvg-plot="Two old friends reconnect decades after losing touch." tvg-backdrop="https://fastly.picsum.photos/id/44/800/450" group-title="Romance",A Second Chance
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="under.the.stars" tvg-name="Under the Stars" tvg-logo="https://fastly.picsum.photos/id/95/300/450" tvg-type="movie" tvg-plot="A chance meeting at an outdoor concert changes two lives." tvg-backdrop="https://fastly.picsum.photos/id/45/800/450" group-title="Romance",Under the Stars
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="city.love" tvg-name="City Love" tvg-logo="https://fastly.picsum.photos/id/96/300/450" tvg-type="movie" tvg-plot="Romance blooms amid the busy rhythm of city life." tvg-backdrop="https://fastly.picsum.photos/id/46/800/450" group-title="Romance",City Love
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="seasons.together" tvg-name="Seasons Together" tvg-logo="https://fastly.picsum.photos/id/97/300/450" tvg-type="movie" tvg-plot="A couple's love is tested through life's different seasons." tvg-backdrop="https://fastly.picsum.photos/id/47/800/450" group-title="Romance",Seasons Together
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="first.love" tvg-name="First Love" tvg-logo="https://fastly.picsum.photos/id/98/300/450" tvg-type="movie" tvg-plot="A nostalgic look at the magic and heartbreak of first love." tvg-backdrop="https://fastly.picsum.photos/id/48/800/450" group-title="Romance",First Love
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="the.anniversary" tvg-name="The Anniversary" tvg-logo="https://fastly.picsum.photos/id/99/300/450" tvg-type="movie" tvg-plot="A couple celebrates twenty-five years by revisiting their past." tvg-backdrop="https://fastly.picsum.photos/id/49/800/450" group-title="Romance",The Anniversary
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="forever.after" tvg-name="Forever After" tvg-logo="https://fastly.picsum.photos/id/100/300/450" tvg-type="movie" tvg-plot="Two people who thought love had passed them by find joy again." tvg-backdrop="https://fastly.picsum.photos/id/50/800/450" group-title="Romance",Forever After
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
 ##############################################################################
-# SERIES — 10 series grouped by GENRE so multiple series appear per home row.
-# Genre categories:
-#   Documentary        -> Cosmos, Our Living Planet, Ancient Mysteries, Tech Frontiers
-#   Nature, Wildlife   -> Tiny Worlds, Wild Instincts
-#   Travel, Urban      -> Hidden Cities
-#   Crime, Thriller    -> Nordic Noir, Case Files
-#   Sci-Fi, Speculative-> Beyond Tomorrow
+# SERIES — 10 series × 6 episodes = 60
 ##############################################################################
 
-# ── COSMOS: A SPACE JOURNEY (5 eps) ──────────────────────────────────────────
-#EXTINF:2700 tvg-id="cosmos101" tvg-type="series" tvg-name="Cosmos: A Space Journey S01E01" tvg-logo="https://picsum.photos/seed/cosmos101/300/450" tvg-backdrop="https://picsum.photos/seed/cosmos101w/800/450" group-title="Cosmos: A Space Journey" tvg-genre="Documentary, Science, Space" tvg-cast="Dr. Nova Hart" tvg-director="Cosmos Films" tvg-rating="9.1" tvg-year="2022" tvg-description="We begin at the edge of the observable universe and travel inward, establishing our tiny place within it.",S01E01 - Stargazing: Our Universe
+#EXTINF:-1 tvg-id="wild.planet.s01e01" tvg-name="Into the Canopy" tvg-logo="https://fastly.picsum.photos/id/1/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="1" tvg-plot="Exploring life in the treetops of the world's largest rainforests." tvg-backdrop="https://fastly.picsum.photos/id/31/800/450" group-title="Wild Planet",Wild Planet S01E01 - Into the Canopy
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="cosmos102" tvg-type="series" tvg-name="Cosmos: A Space Journey S01E02" tvg-logo="https://picsum.photos/seed/cosmos102/300/450" tvg-backdrop="https://picsum.photos/seed/cosmos101w/800/450" group-title="Cosmos: A Space Journey" tvg-genre="Documentary, Science, Space" tvg-cast="Dr. Nova Hart" tvg-director="Cosmos Films" tvg-rating="9.0" tvg-year="2022" tvg-description="Our galaxy holds 400 billion stars. This episode reveals the hidden structure of the Milky Way.",S01E02 - The Milky Way Unveiled
+#EXTINF:-1 tvg-id="wild.planet.s01e02" tvg-name="The Frozen North" tvg-logo="https://fastly.picsum.photos/id/2/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="2" tvg-plot="Wildlife and survival in the Arctic circle through winter." tvg-backdrop="https://fastly.picsum.photos/id/32/800/450" group-title="Wild Planet",Wild Planet S01E02 - The Frozen North
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="cosmos103" tvg-type="series" tvg-name="Cosmos: A Space Journey S01E03" tvg-logo="https://picsum.photos/seed/cosmos103/300/450" tvg-backdrop="https://picsum.photos/seed/cosmos101w/800/450" group-title="Cosmos: A Space Journey" tvg-genre="Documentary, Science, Space" tvg-cast="Dr. Nova Hart" tvg-director="Cosmos Films" tvg-rating="8.9" tvg-year="2022" tvg-description="Stars explode with the force of billions of suns, seeding the universe with heavy elements that make planets.",S01E03 - Worlds of Light and Shadow
+#EXTINF:-1 tvg-id="wild.planet.s01e03" tvg-name="Grassland Giants" tvg-logo="https://fastly.picsum.photos/id/3/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="3" tvg-plot="The migration and community life of the savanna's largest animals." tvg-backdrop="https://fastly.picsum.photos/id/33/800/450" group-title="Wild Planet",Wild Planet S01E03 - Grassland Giants
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="cosmos201" tvg-type="series" tvg-name="Cosmos: A Space Journey S02E01" tvg-logo="https://picsum.photos/seed/cosmos201/300/450" tvg-backdrop="https://picsum.photos/seed/cosmos201w/800/450" group-title="Cosmos: A Space Journey" tvg-genre="Documentary, Science, Space" tvg-cast="Dr. Nova Hart" tvg-director="Cosmos Films" tvg-rating="9.2" tvg-year="2023" tvg-description="Dark matter makes up 27% of the universe. Season 2 opens with the most profound mystery of modern physics.",S02E01 - Dark Matter Mysteries
+#EXTINF:-1 tvg-id="wild.planet.s01e04" tvg-name="Wetland Worlds" tvg-logo="https://fastly.picsum.photos/id/4/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="4" tvg-plot="Discovering the biodiversity hidden in swamps and marshlands." tvg-backdrop="https://fastly.picsum.photos/id/34/800/450" group-title="Wild Planet",Wild Planet S01E04 - Wetland Worlds
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="cosmos202" tvg-type="series" tvg-name="Cosmos: A Space Journey S02E02" tvg-logo="https://picsum.photos/seed/cosmos202/300/450" tvg-backdrop="https://picsum.photos/seed/cosmos201w/800/450" group-title="Cosmos: A Space Journey" tvg-genre="Documentary, Science, Space" tvg-cast="Dr. Nova Hart" tvg-director="Cosmos Films" tvg-rating="9.0" tvg-year="2023" tvg-description="What existed before the Big Bang? Our universe may be one of infinitely many.",S02E02 - The Edge of Time
+#EXTINF:-1 tvg-id="wild.planet.s01e05" tvg-name="Mountain Spirits" tvg-logo="https://fastly.picsum.photos/id/5/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="5" tvg-plot="The resilient creatures that live at extreme altitudes." tvg-backdrop="https://fastly.picsum.photos/id/35/800/450" group-title="Wild Planet",Wild Planet S01E05 - Mountain Spirits
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-# ── OUR LIVING PLANET (6 eps) ─────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="planet101" tvg-type="series" tvg-name="Our Living Planet S01E01" tvg-logo="https://picsum.photos/seed/planet101/300/450" tvg-backdrop="https://picsum.photos/seed/planet101w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="8.9" tvg-year="2021" tvg-description="Forests are the lungs of our planet. Scientists parachute into the Bornean canopy where half a million species await.",S01E01 - Forests: The Lungs of Earth
+#EXTINF:-1 tvg-id="wild.planet.s01e06" tvg-name="Ocean's Edge" tvg-logo="https://fastly.picsum.photos/id/6/300/450" tvg-type="series" tvg-genre="Documentary, Nature" tvg-season="1" tvg-episode="6" tvg-plot="Life along the world's most productive coastal ecosystems." tvg-backdrop="https://fastly.picsum.photos/id/36/800/450" group-title="Wild Planet",Wild Planet S01E06 - Ocean's Edge
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="planet102" tvg-type="series" tvg-name="Our Living Planet S01E02" tvg-logo="https://picsum.photos/seed/planet102/300/450" tvg-backdrop="https://picsum.photos/seed/planet101w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="9.1" tvg-year="2021" tvg-description="The ocean covers 71% of our planet. From bioluminescent bays to hydrothermal vents, the sea holds life in every extreme.",S01E02 - Oceans: Blue Heart of the World
+#EXTINF:-1 tvg-id="cosmos.journey.s01e01" tvg-name="Origins of the Universe" tvg-logo="https://fastly.picsum.photos/id/7/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="1" tvg-plot="Tracing the universe's birth from the Big Bang to galaxy formation." tvg-backdrop="https://fastly.picsum.photos/id/37/800/450" group-title="Cosmos Journey",Cosmos Journey S01E01 - Origins of the Universe
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="planet103" tvg-type="series" tvg-name="Our Living Planet S01E03" tvg-logo="https://picsum.photos/seed/planet103/300/450" tvg-backdrop="https://picsum.photos/seed/planet101w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="8.7" tvg-year="2021" tvg-description="Deserts cover a third of all land. From sidewinder snakes to fog-harvesting beetles, life persists in the extreme.",S01E03 - Deserts: Life in the Extreme
+#EXTINF:-1 tvg-id="cosmos.journey.s01e02" tvg-name="Stars and Their Lives" tvg-logo="https://fastly.picsum.photos/id/8/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="2" tvg-plot="The life cycle of stars from nebulae to supernovae." tvg-backdrop="https://fastly.picsum.photos/id/38/800/450" group-title="Cosmos Journey",Cosmos Journey S01E02 - Stars and Their Lives
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="planet104" tvg-type="series" tvg-name="Our Living Planet S01E04" tvg-logo="https://picsum.photos/seed/planet104/300/450" tvg-backdrop="https://picsum.photos/seed/planet101w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="8.8" tvg-year="2021" tvg-description="Mountain ecosystems are among the most threatened habitats, home to snow leopards and high-altitude spiders.",S01E04 - Mountains: Peaks of the World
+#EXTINF:-1 tvg-id="cosmos.journey.s01e03" tvg-name="The Solar System Tour" tvg-logo="https://fastly.picsum.photos/id/9/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="3" tvg-plot="A guided tour of our celestial neighborhood." tvg-backdrop="https://fastly.picsum.photos/id/39/800/450" group-title="Cosmos Journey",Cosmos Journey S01E03 - The Solar System Tour
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="planet201" tvg-type="series" tvg-name="Our Living Planet S02E01" tvg-logo="https://picsum.photos/seed/planet201/300/450" tvg-backdrop="https://picsum.photos/seed/planet201w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="9.0" tvg-year="2022" tvg-description="The Arctic is warming four times faster than the global average. Polar bears and Inuit communities face vanishing sea ice.",S02E01 - Arctic: The Frozen North
+#EXTINF:-1 tvg-id="cosmos.journey.s01e04" tvg-name="Exoplanet Hunters" tvg-logo="https://fastly.picsum.photos/id/10/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="4" tvg-plot="Scientists searching for Earth-like worlds beyond our solar system." tvg-backdrop="https://fastly.picsum.photos/id/40/800/450" group-title="Cosmos Journey",Cosmos Journey S01E04 - Exoplanet Hunters
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="planet202" tvg-type="series" tvg-name="Our Living Planet S02E02" tvg-logo="https://picsum.photos/seed/planet202/300/450" tvg-backdrop="https://picsum.photos/seed/planet201w/800/450" group-title="Our Living Planet" tvg-genre="Documentary, Nature, Environment" tvg-cast="Field Researchers" tvg-director="Living Planet Productions" tvg-rating="8.8" tvg-year="2022" tvg-description="The Amazon contains 10% of all species on Earth. We follow researchers mapping its astonishing biodiversity.",S02E02 - Amazon: River of Life
+#EXTINF:-1 tvg-id="cosmos.journey.s01e05" tvg-name="The Dark Universe" tvg-logo="https://fastly.picsum.photos/id/11/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="5" tvg-plot="Dark matter and energy — the unseen majority of the cosmos." tvg-backdrop="https://fastly.picsum.photos/id/41/800/450" group-title="Cosmos Journey",Cosmos Journey S01E05 - The Dark Universe
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-# ── ANCIENT MYSTERIES (5 eps) ─────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="anc101" tvg-type="series" tvg-name="Ancient Mysteries S01E01" tvg-logo="https://picsum.photos/seed/anc101/300/450" tvg-backdrop="https://picsum.photos/seed/anc101w/800/450" group-title="Ancient Mysteries" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Antiquity Films" tvg-rating="8.3" tvg-year="2020" tvg-description="The Great Pyramid was built in 20 years. New robotic scanners reveal hidden chambers and overturn a century of theory.",S01E01 - Pyramids: Secrets of the Builders
+#EXTINF:-1 tvg-id="cosmos.journey.s01e06" tvg-name="Signals from Afar" tvg-logo="https://fastly.picsum.photos/id/12/300/450" tvg-type="series" tvg-genre="Documentary, Science" tvg-season="1" tvg-episode="6" tvg-plot="Decoding signals from deep space and the search for intelligence." tvg-backdrop="https://fastly.picsum.photos/id/42/800/450" group-title="Cosmos Journey",Cosmos Journey S01E06 - Signals from Afar
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="anc102" tvg-type="series" tvg-name="Ancient Mysteries S01E02" tvg-logo="https://picsum.photos/seed/anc102/300/450" tvg-backdrop="https://picsum.photos/seed/anc101w/800/450" group-title="Ancient Mysteries" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Antiquity Films" tvg-rating="8.1" tvg-year="2020" tvg-description="LiDAR unveils thousands of previously unknown Mayan and Incan cities hidden beneath the jungle.",S01E02 - Lost Cities of the Americas
+#EXTINF:-1 tvg-id="ancient.empires.s01e01" tvg-name="The Rise of Rome" tvg-logo="https://fastly.picsum.photos/id/13/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="1" tvg-plot="How a small city-state became the most powerful empire in history." tvg-backdrop="https://fastly.picsum.photos/id/43/800/450" group-title="Ancient Empires",Ancient Empires S01E01 - The Rise of Rome
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="anc103" tvg-type="series" tvg-name="Ancient Mysteries S01E03" tvg-logo="https://picsum.photos/seed/anc103/300/450" tvg-backdrop="https://picsum.photos/seed/anc101w/800/450" group-title="Ancient Mysteries" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Antiquity Films" tvg-rating="8.0" tvg-year="2020" tvg-description="Stonehenge was built over 1,500 years. Isotope analysis shows builders came from as far as the Mediterranean.",S01E03 - The Mystery of Stonehenge
+#EXTINF:-1 tvg-id="ancient.empires.s01e02" tvg-name="Egypt's Golden Age" tvg-logo="https://fastly.picsum.photos/id/14/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="2" tvg-plot="The civilization, pharaohs, and monuments of ancient Egypt." tvg-backdrop="https://fastly.picsum.photos/id/44/800/450" group-title="Ancient Empires",Ancient Empires S01E02 - Egypt's Golden Age
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="anc201" tvg-type="series" tvg-name="Ancient Mysteries S02E01" tvg-logo="https://picsum.photos/seed/anc201/300/450" tvg-backdrop="https://picsum.photos/seed/anc201w/800/450" group-title="Ancient Mysteries" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Antiquity Films" tvg-rating="8.4" tvg-year="2021" tvg-description="Plato wrote of Atlantis - a civilisation that vanished in a night. We examine the geographical evidence.",S02E01 - Atlantis: Myth or Reality
+#EXTINF:-1 tvg-id="ancient.empires.s01e03" tvg-name="The Persian Empire" tvg-logo="https://fastly.picsum.photos/id/15/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="3" tvg-plot="The vast realm that unified diverse peoples under one crown." tvg-backdrop="https://fastly.picsum.photos/id/45/800/450" group-title="Ancient Empires",Ancient Empires S01E03 - The Persian Empire
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="anc202" tvg-type="series" tvg-name="Ancient Mysteries S02E02" tvg-logo="https://picsum.photos/seed/anc202/300/450" tvg-backdrop="https://picsum.photos/seed/anc201w/800/450" group-title="Ancient Mysteries" tvg-genre="Documentary, History, Archaeology" tvg-cast="Archaeologists" tvg-director="Antiquity Films" tvg-rating="8.2" tvg-year="2021" tvg-description="Polynesian navigators reached Hawaii 1,000 years before European explorers using only stars and wave patterns.",S02E02 - Ancient Navigation: Sailing by Stars
+#EXTINF:-1 tvg-id="ancient.empires.s01e04" tvg-name="Mongol Conquests" tvg-logo="https://fastly.picsum.photos/id/16/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="4" tvg-plot="The world's largest land empire and its remarkable leaders." tvg-backdrop="https://fastly.picsum.photos/id/46/800/450" group-title="Ancient Empires",Ancient Empires S01E04 - Mongol Conquests
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-# ── TECH FRONTIERS (5 eps) ────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="tech101" tvg-type="series" tvg-name="Tech Frontiers S01E01" tvg-logo="https://picsum.photos/seed/tech101/300/450" tvg-backdrop="https://picsum.photos/seed/tech101w/800/450" group-title="Tech Frontiers" tvg-genre="Documentary, Technology, Science" tvg-cast="Tech Researchers" tvg-director="Silicon Films" tvg-rating="8.5" tvg-year="2023" tvg-description="Large language models have crossed a threshold that was supposed to be decades away.",S01E01 - The Age of Artificial Intelligence
+#EXTINF:-1 tvg-id="ancient.empires.s01e05" tvg-name="The Han Dynasty" tvg-logo="https://fastly.picsum.photos/id/17/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="5" tvg-plot="China's golden age of culture, trade, and technology." tvg-backdrop="https://fastly.picsum.photos/id/47/800/450" group-title="Ancient Empires",Ancient Empires S01E05 - The Han Dynasty
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="tech102" tvg-type="series" tvg-name="Tech Frontiers S01E02" tvg-logo="https://picsum.photos/seed/tech102/300/450" tvg-backdrop="https://picsum.photos/seed/tech101w/800/450" group-title="Tech Frontiers" tvg-genre="Documentary, Technology, Science" tvg-cast="Tech Researchers" tvg-director="Silicon Films" tvg-rating="8.3" tvg-year="2023" tvg-description="Quantum computers use qubits that can be 0 and 1 simultaneously. We explore implications for cryptography.",S01E02 - Quantum Computing Explained
+#EXTINF:-1 tvg-id="ancient.empires.s01e06" tvg-name="Byzantine Legacy" tvg-logo="https://fastly.picsum.photos/id/18/300/450" tvg-type="series" tvg-genre="Documentary, History" tvg-season="1" tvg-episode="6" tvg-plot="The eastern Roman Empire and its lasting cultural contributions." tvg-backdrop="https://fastly.picsum.photos/id/48/800/450" group-title="Ancient Empires",Ancient Empires S01E06 - Byzantine Legacy
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="tech103" tvg-type="series" tvg-name="Tech Frontiers S01E03" tvg-logo="https://picsum.photos/seed/tech103/300/450" tvg-backdrop="https://picsum.photos/seed/tech101w/800/450" group-title="Tech Frontiers" tvg-genre="Documentary, Technology, Science" tvg-cast="Tech Researchers" tvg-director="Silicon Films" tvg-rating="8.1" tvg-year="2023" tvg-description="15 billion devices now outnumber humans. The IoT is reshaping cities, hospitals, and farms.",S01E03 - The Internet of Everything
+#EXTINF:-1 tvg-id="ocean.depths.s01e01" tvg-name="The Twilight Zone" tvg-logo="https://fastly.picsum.photos/id/19/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="1" tvg-plot="The ocean layer where sunlight fades and strange life thrives." tvg-backdrop="https://fastly.picsum.photos/id/49/800/450" group-title="Ocean Depths",Ocean Depths S01E01 - The Twilight Zone
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="tech104" tvg-type="series" tvg-name="Tech Frontiers S01E04" tvg-logo="https://picsum.photos/seed/tech104/300/450" tvg-backdrop="https://picsum.photos/seed/tech101w/800/450" group-title="Tech Frontiers" tvg-genre="Documentary, Technology, Science" tvg-cast="Tech Researchers" tvg-director="Silicon Films" tvg-rating="8.4" tvg-year="2023" tvg-description="Solar, wind, and batteries are now the cheapest energy sources ever built.",S01E04 - Renewable Energy Revolution
+#EXTINF:-1 tvg-id="ocean.depths.s01e02" tvg-name="Coral Cities" tvg-logo="https://fastly.picsum.photos/id/20/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="2" tvg-plot="The reef ecosystems that support a quarter of all marine life." tvg-backdrop="https://fastly.picsum.photos/id/50/800/450" group-title="Ocean Depths",Ocean Depths S01E02 - Coral Cities
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="tech201" tvg-type="series" tvg-name="Tech Frontiers S02E01" tvg-logo="https://picsum.photos/seed/tech201/300/450" tvg-backdrop="https://picsum.photos/seed/tech201w/800/450" group-title="Tech Frontiers" tvg-genre="Documentary, Technology, Space" tvg-cast="NASA Scientists" tvg-director="Silicon Films" tvg-rating="8.7" tvg-year="2024" tvg-description="The crewed Mars mission needs six months in deep space. We follow people engineering every step.",S02E01 - Mars: The Next Human Frontier
+#EXTINF:-1 tvg-id="ocean.depths.s01e03" tvg-name="Hydrothermal Vents" tvg-logo="https://fastly.picsum.photos/id/21/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="3" tvg-plot="Life flourishing around superheated vents on the ocean floor." tvg-backdrop="https://fastly.picsum.photos/id/51/800/450" group-title="Ocean Depths",Ocean Depths S01E03 - Hydrothermal Vents
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-# ── TINY WORLDS (5 eps) ───────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="tiny101" tvg-type="series" tvg-name="Tiny Worlds S01E01" tvg-logo="https://picsum.photos/seed/tiny101/300/450" tvg-backdrop="https://picsum.photos/seed/tiny101w/800/450" group-title="Tiny Worlds" tvg-genre="Nature, Wildlife, Micro" tvg-cast="Entomologists" tvg-director="Micro Films" tvg-rating="8.4" tvg-year="2021" tvg-description="Filmed at 500 fps - the miniature warfare, courtship, and survival of the 7 million known insect species.",S01E01 - The Insect Kingdom
+#EXTINF:-1 tvg-id="ocean.depths.s01e04" tvg-name="The Midnight Zone" tvg-logo="https://fastly.picsum.photos/id/22/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="4" tvg-plot="Creatures of total darkness in the deep ocean abyss." tvg-backdrop="https://fastly.picsum.photos/id/52/800/450" group-title="Ocean Depths",Ocean Depths S01E04 - The Midnight Zone
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="tiny102" tvg-type="series" tvg-name="Tiny Worlds S01E02" tvg-logo="https://picsum.photos/seed/tiny102/300/450" tvg-backdrop="https://picsum.photos/seed/tiny101w/800/450" group-title="Tiny Worlds" tvg-genre="Nature, Wildlife, Micro" tvg-cast="Entomologists" tvg-director="Micro Films" tvg-rating="8.6" tvg-year="2021" tvg-description="A teaspoon of soil holds millions of bacteria and fungi. Electron microscopy reveals the invisible civilisation beneath.",S01E02 - Microbe Universe
+#EXTINF:-1 tvg-id="ocean.depths.s01e05" tvg-name="Arctic Waters" tvg-logo="https://fastly.picsum.photos/id/23/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="5" tvg-plot="The unique marine life beneath polar sea ice." tvg-backdrop="https://fastly.picsum.photos/id/53/800/450" group-title="Ocean Depths",Ocean Depths S01E05 - Arctic Waters
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="tiny103" tvg-type="series" tvg-name="Tiny Worlds S01E03" tvg-logo="https://picsum.photos/seed/tiny103/300/450" tvg-backdrop="https://picsum.photos/seed/tiny101w/800/450" group-title="Tiny Worlds" tvg-genre="Nature, Wildlife, Micro" tvg-cast="Entomologists" tvg-director="Micro Films" tvg-rating="8.2" tvg-year="2021" tvg-description="A single raindrop creates an ecosystem. Organisms colonise water droplets within hours of a storm.",S01E03 - Life in a Drop of Water
+#EXTINF:-1 tvg-id="ocean.depths.s01e06" tvg-name="Ocean Currents" tvg-logo="https://fastly.picsum.photos/id/24/300/450" tvg-type="series" tvg-genre="Documentary, Environment" tvg-season="1" tvg-episode="6" tvg-plot="The vast water rivers that regulate Earth's climate." tvg-backdrop="https://fastly.picsum.photos/id/54/800/450" group-title="Ocean Depths",Ocean Depths S01E06 - Ocean Currents
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="tiny104" tvg-type="series" tvg-name="Tiny Worlds S01E04" tvg-logo="https://picsum.photos/seed/tiny104/300/450" tvg-backdrop="https://picsum.photos/seed/tiny101w/800/450" group-title="Tiny Worlds" tvg-genre="Nature, Wildlife, Micro" tvg-cast="Entomologists" tvg-director="Micro Films" tvg-rating="8.5" tvg-year="2021" tvg-description="Mycorrhizal networks connect trees and let them share nutrients and pest warnings.",S01E04 - The Underground Network
+#EXTINF:-1 tvg-id="true.north.s01e01" tvg-name="Cold Trail" tvg-logo="https://fastly.picsum.photos/id/25/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="1" tvg-plot="Detective Hanna cross-references old case files looking for a pattern." tvg-backdrop="https://fastly.picsum.photos/id/55/800/450" group-title="True North",True North S01E01 - Cold Trail
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="tiny105" tvg-type="series" tvg-name="Tiny Worlds S01E05" tvg-logo="https://picsum.photos/seed/tiny105/300/450" tvg-backdrop="https://picsum.photos/seed/tiny101w/800/450" group-title="Tiny Worlds" tvg-genre="Nature, Wildlife, Micro" tvg-cast="Entomologists" tvg-director="Micro Films" tvg-rating="8.7" tvg-year="2021" tvg-description="Plankton produce half the oxygen on Earth and form the foundation of all marine food chains.",S01E05 - Ocean Drifters
+#EXTINF:-1 tvg-id="true.north.s01e02" tvg-name="White Out" tvg-logo="https://fastly.picsum.photos/id/26/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="2" tvg-plot="A blizzard traps residents of a remote town with a suspected criminal." tvg-backdrop="https://fastly.picsum.photos/id/56/800/450" group-title="True North",True North S01E02 - White Out
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-# ── WILD INSTINCTS (5 eps) ────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="wild101" tvg-type="series" tvg-name="Wild Instincts S01E01" tvg-logo="https://picsum.photos/seed/wild101/300/450" tvg-backdrop="https://picsum.photos/seed/wild101w/800/450" group-title="Wild Instincts" tvg-genre="Nature, Wildlife, Documentary" tvg-cast="Wildlife Biologists" tvg-director="Safari Productions" tvg-rating="8.8" tvg-year="2023" tvg-description="The Okavango Delta floods for only 90 days - every species of the Kalahari converges in a drama of survival.",S01E01 - The Delta Floods
+#EXTINF:-1 tvg-id="true.north.s01e03" tvg-name="The Informant" tvg-logo="https://fastly.picsum.photos/id/27/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="3" tvg-plot="A shady tip leads Hanna into a dangerous conspiracy." tvg-backdrop="https://fastly.picsum.photos/id/57/800/450" group-title="True North",True North S01E03 - The Informant
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="wild102" tvg-type="series" tvg-name="Wild Instincts S01E02" tvg-logo="https://picsum.photos/seed/wild102/300/450" tvg-backdrop="https://picsum.photos/seed/wild101w/800/450" group-title="Wild Instincts" tvg-genre="Nature, Wildlife, Documentary" tvg-cast="Wildlife Biologists" tvg-director="Safari Productions" tvg-rating="9.0" tvg-year="2023" tvg-description="A Bengal tiger mother raises three cubs alone in monsoon forests. A full year of her remarkable story.",S01E02 - Tiger: Monsoon Mother
+#EXTINF:-1 tvg-id="true.north.s01e04" tvg-name="Thin Ice" tvg-logo="https://fastly.picsum.photos/id/28/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="4" tvg-plot="Evidence found under frozen lake ice reopens a five-year-old case." tvg-backdrop="https://fastly.picsum.photos/id/58/800/450" group-title="True North",True North S01E04 - Thin Ice
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="wild103" tvg-type="series" tvg-name="Wild Instincts S01E03" tvg-logo="https://picsum.photos/seed/wild103/300/450" tvg-backdrop="https://picsum.photos/seed/wild101w/800/450" group-title="Wild Instincts" tvg-genre="Nature, Wildlife, Documentary" tvg-cast="Wildlife Biologists" tvg-director="Safari Productions" tvg-rating="8.7" tvg-year="2023" tvg-description="1.5 million wildebeest cross croc-filled rivers - the largest terrestrial migration of any mammal on Earth.",S01E03 - The Great Migration
+#EXTINF:-1 tvg-id="true.north.s01e05" tvg-name="Northern Lights" tvg-logo="https://fastly.picsum.photos/id/29/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="5" tvg-plot="A witness to a murder surfaces — but is reluctant to talk." tvg-backdrop="https://fastly.picsum.photos/id/59/800/450" group-title="True North",True North S01E05 - Northern Lights
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="wild104" tvg-type="series" tvg-name="Wild Instincts S01E04" tvg-logo="https://picsum.photos/seed/wild104/300/450" tvg-backdrop="https://picsum.photos/seed/wild101w/800/450" group-title="Wild Instincts" tvg-genre="Nature, Wildlife, Documentary" tvg-cast="Wildlife Biologists" tvg-director="Safari Productions" tvg-rating="8.9" tvg-year="2023" tvg-description="Orca pods hunt using techniques so sophisticated scientists classify them as culture across ten generations.",S01E04 - Orca: Ocean Culture
+#EXTINF:-1 tvg-id="true.north.s01e06" tvg-name="Deep Freeze" tvg-logo="https://fastly.picsum.photos/id/30/300/450" tvg-type="series" tvg-genre="Crime, Thriller" tvg-season="1" tvg-episode="6" tvg-plot="Hanna closes in on the truth at great personal risk." tvg-backdrop="https://fastly.picsum.photos/id/60/800/450" group-title="True North",True North S01E06 - Deep Freeze
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="wild105" tvg-type="series" tvg-name="Wild Instincts S01E05" tvg-logo="https://picsum.photos/seed/wild105/300/450" tvg-backdrop="https://picsum.photos/seed/wild101w/800/450" group-title="Wild Instincts" tvg-genre="Nature, Wildlife, Documentary" tvg-cast="Wildlife Biologists" tvg-director="Safari Productions" tvg-rating="9.1" tvg-year="2023" tvg-description="Chimps use tools, medicate with plants, and wage organised war. What truly separates us from them?",S01E05 - The Thinking Ape
+#EXTINF:-1 tvg-id="case.files.s01e01" tvg-name="The Missing Hours" tvg-logo="https://fastly.picsum.photos/id/31/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="1" tvg-plot="A woman has no memory of a crucial two-hour window." tvg-backdrop="https://fastly.picsum.photos/id/1/800/450" group-title="Case Files",Case Files S01E01 - The Missing Hours
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-# ── HIDDEN CITIES (5 eps) ─────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="city101" tvg-type="series" tvg-name="Hidden Cities S01E01" tvg-logo="https://picsum.photos/seed/city101/300/450" tvg-backdrop="https://picsum.photos/seed/city101w/800/450" group-title="Hidden Cities" tvg-genre="Travel, Urban, History" tvg-cast="Urban Explorers" tvg-director="Metro Films" tvg-rating="8.6" tvg-year="2022" tvg-description="Beneath Paris stretches 300 km of tunnels, quarries, and catacombs that most Parisians never see.",S01E01 - Paris: Under the City
+#EXTINF:-1 tvg-id="case.files.s01e02" tvg-name="The Locked Room" tvg-logo="https://fastly.picsum.photos/id/32/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="2" tvg-plot="A murder occurs in a room locked from the inside." tvg-backdrop="https://fastly.picsum.photos/id/2/800/450" group-title="Case Files",Case Files S01E02 - The Locked Room
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="city102" tvg-type="series" tvg-name="Hidden Cities S01E02" tvg-logo="https://picsum.photos/seed/city102/300/450" tvg-backdrop="https://picsum.photos/seed/city101w/800/450" group-title="Hidden Cities" tvg-genre="Travel, Urban, History" tvg-cast="Urban Explorers" tvg-director="Metro Films" tvg-rating="8.4" tvg-year="2022" tvg-description="Tokyo has flood-control tunnels the size of cathedrals running 50 metres below street level.",S01E02 - Tokyo: The Underground Cathedral
+#EXTINF:-1 tvg-id="case.files.s01e03" tvg-name="The Inheritance" tvg-logo="https://fastly.picsum.photos/id/33/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="3" tvg-plot="A wealthy family's reunion ends in an unexpected death." tvg-backdrop="https://fastly.picsum.photos/id/3/800/450" group-title="Case Files",Case Files S01E03 - The Inheritance
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="city103" tvg-type="series" tvg-name="Hidden Cities S01E03" tvg-logo="https://picsum.photos/seed/city103/300/450" tvg-backdrop="https://picsum.photos/seed/city101w/800/450" group-title="Hidden Cities" tvg-genre="Travel, Urban, History" tvg-cast="Urban Explorers" tvg-director="Metro Films" tvg-rating="8.2" tvg-year="2022" tvg-description="New York's decommissioned tunnels and ghost subway stations hide a parallel underground world.",S01E03 - New York: Ghost Platforms
+#EXTINF:-1 tvg-id="case.files.s01e04" tvg-name="The Alibi" tvg-logo="https://fastly.picsum.photos/id/34/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="4" tvg-plot="A solid alibi begins to unravel under scrutiny." tvg-backdrop="https://fastly.picsum.photos/id/4/800/450" group-title="Case Files",Case Files S01E04 - The Alibi
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="city104" tvg-type="series" tvg-name="Hidden Cities S01E04" tvg-logo="https://picsum.photos/seed/city104/300/450" tvg-backdrop="https://picsum.photos/seed/city101w/800/450" group-title="Hidden Cities" tvg-genre="Travel, Urban, History" tvg-cast="Urban Explorers" tvg-director="Metro Films" tvg-rating="8.5" tvg-year="2022" tvg-description="Istanbul straddles two millennia - Byzantine cisterns and Ottoman aqueducts lie beneath its bazaars.",S01E04 - Istanbul: Where Empires Collide
+#EXTINF:-1 tvg-id="case.files.s01e05" tvg-name="The Anonymous Letter" tvg-logo="https://fastly.picsum.photos/id/35/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="5" tvg-plot="An unsigned letter arrives at the precinct with a clue." tvg-backdrop="https://fastly.picsum.photos/id/5/800/450" group-title="Case Files",Case Files S01E05 - The Anonymous Letter
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="city105" tvg-type="series" tvg-name="Hidden Cities S01E05" tvg-logo="https://picsum.photos/seed/city105/300/450" tvg-backdrop="https://picsum.photos/seed/city101w/800/450" group-title="Hidden Cities" tvg-genre="Travel, Urban, History" tvg-cast="Urban Explorers" tvg-director="Metro Films" tvg-rating="8.8" tvg-year="2022" tvg-description="Beneath modern Rome sit 2,000 years of temples, churches, and imperial warehouses preserved in clay.",S01E05 - Rome: The City Beneath Rome
+#EXTINF:-1 tvg-id="case.files.s01e06" tvg-name="Closing Arguments" tvg-logo="https://fastly.picsum.photos/id/36/300/450" tvg-type="series" tvg-genre="Crime, Mystery" tvg-season="1" tvg-episode="6" tvg-plot="The team presents their findings in a high-stakes courtroom." tvg-backdrop="https://fastly.picsum.photos/id/6/800/450" group-title="Case Files",Case Files S01E06 - Closing Arguments
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-# ── NORDIC NOIR (5 eps) ───────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="nordic101" tvg-type="series" tvg-name="Nordic Noir S01E01" tvg-logo="https://picsum.photos/seed/nordic101/300/450" tvg-backdrop="https://picsum.photos/seed/nordic101w/800/450" group-title="Nordic Noir" tvg-genre="Crime, Thriller, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Fjord Films" tvg-rating="8.7" tvg-year="2024" tvg-description="A coast-guard officer discovers a diplomat's body washed ashore - without a passport, fingerprints, or a face.",S01E01 - The Faceless Diplomat
+#EXTINF:-1 tvg-id="night.watch.s01e01" tvg-name="First Shift" tvg-logo="https://fastly.picsum.photos/id/37/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="1" tvg-plot="New recruit Maya begins patrolling the city's toughest district." tvg-backdrop="https://fastly.picsum.photos/id/7/800/450" group-title="Night Watch",Night Watch S01E01 - First Shift
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="nordic102" tvg-type="series" tvg-name="Nordic Noir S01E02" tvg-logo="https://picsum.photos/seed/nordic102/300/450" tvg-backdrop="https://picsum.photos/seed/nordic101w/800/450" group-title="Nordic Noir" tvg-genre="Crime, Thriller, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Fjord Films" tvg-rating="8.5" tvg-year="2024" tvg-description="DNA reveals the victim has been registered dead for 11 years. The trail leads to a secretive off-grid community.",S01E02 - The Dead Man's Return
+#EXTINF:-1 tvg-id="night.watch.s01e02" tvg-name="The Long Night" tvg-logo="https://fastly.picsum.photos/id/38/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="2" tvg-plot="A single night shift spirals into a city-wide crisis." tvg-backdrop="https://fastly.picsum.photos/id/8/800/450" group-title="Night Watch",Night Watch S01E02 - The Long Night
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="nordic103" tvg-type="series" tvg-name="Nordic Noir S01E03" tvg-logo="https://picsum.photos/seed/nordic103/300/450" tvg-backdrop="https://picsum.photos/seed/nordic101w/800/450" group-title="Nordic Noir" tvg-genre="Crime, Thriller, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Fjord Films" tvg-rating="8.8" tvg-year="2024" tvg-description="A second body bears a tattooed map pointing to a location not on any chart since 1943.",S01E03 - The Tattooed Map
+#EXTINF:-1 tvg-id="night.watch.s01e03" tvg-name="Rivals" tvg-logo="https://fastly.picsum.photos/id/39/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="3" tvg-plot="Two officers with different methods must work together." tvg-backdrop="https://fastly.picsum.photos/id/9/800/450" group-title="Night Watch",Night Watch S01E03 - Rivals
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="nordic104" tvg-type="series" tvg-name="Nordic Noir S01E04" tvg-logo="https://picsum.photos/seed/nordic104/300/450" tvg-backdrop="https://picsum.photos/seed/nordic101w/800/450" group-title="Nordic Noir" tvg-genre="Crime, Thriller, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Fjord Films" tvg-rating="8.6" tvg-year="2024" tvg-description="The map leads to a 1940s submarine base sealed for 80 years containing evidence implicating three governments.",S01E04 - The Sealed Bunker
+#EXTINF:-1 tvg-id="night.watch.s01e04" tvg-name="Trust Issues" tvg-logo="https://fastly.picsum.photos/id/40/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="4" tvg-plot="Internal affairs investigates a complaint against the squad." tvg-backdrop="https://fastly.picsum.photos/id/10/800/450" group-title="Night Watch",Night Watch S01E04 - Trust Issues
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="nordic105" tvg-type="series" tvg-name="Nordic Noir S01E05" tvg-logo="https://picsum.photos/seed/nordic105/300/450" tvg-backdrop="https://picsum.photos/seed/nordic101w/800/450" group-title="Nordic Noir" tvg-genre="Crime, Thriller, Nordic" tvg-cast="Ingrid Solberg, Erik Hansen" tvg-director="Fjord Films" tvg-rating="9.0" tvg-year="2024" tvg-description="Season finale. With a colleague arrested, the investigator must expose the full network before it erases her.",S01E05 - The Final Freeze
+#EXTINF:-1 tvg-id="night.watch.s01e05" tvg-name="The Code" tvg-logo="https://fastly.picsum.photos/id/41/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="5" tvg-plot="Officers weigh loyalty against doing what's right." tvg-backdrop="https://fastly.picsum.photos/id/11/800/450" group-title="Night Watch",Night Watch S01E05 - The Code
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-# ── CASE FILES (5 eps) ────────────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="case101" tvg-type="series" tvg-name="Case Files S01E01" tvg-logo="https://picsum.photos/seed/case101/300/450" tvg-backdrop="https://picsum.photos/seed/case101w/800/450" group-title="Case Files" tvg-genre="Crime, Documentary, True Crime" tvg-cast="Investigators, Prosecutors" tvg-director="Evidence Films" tvg-rating="8.4" tvg-year="2023" tvg-description="The Lighthouse Murder: a retired detective reopens a 1987 case when new evidence surfaces from storm-damaged archives.",S01E01 - The Lighthouse Murder
+#EXTINF:-1 tvg-id="night.watch.s01e06" tvg-name="Dawn" tvg-logo="https://fastly.picsum.photos/id/42/300/450" tvg-type="series" tvg-genre="Crime, Drama" tvg-season="1" tvg-episode="6" tvg-plot="The squad faces the consequences of their choices over the season." tvg-backdrop="https://fastly.picsum.photos/id/12/800/450" group-title="Night Watch",Night Watch S01E06 - Dawn
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="case102" tvg-type="series" tvg-name="Case Files S01E02" tvg-logo="https://picsum.photos/seed/case102/300/450" tvg-backdrop="https://picsum.photos/seed/case101w/800/450" group-title="Case Files" tvg-genre="Crime, Documentary, True Crime" tvg-cast="Investigators, Prosecutors" tvg-director="Evidence Films" tvg-rating="8.2" tvg-year="2023" tvg-description="The Missing Heir: an inheritance dispute reopens a 1960 disappearance from a remote Scottish estate.",S01E02 - The Missing Heir
+#EXTINF:-1 tvg-id="digital.minds.s01e01" tvg-name="Initialization" tvg-logo="https://fastly.picsum.photos/id/43/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="1" tvg-plot="A tech startup unveils an AI that seems almost too human." tvg-backdrop="https://fastly.picsum.photos/id/13/800/450" group-title="Digital Minds",Digital Minds S01E01 - Initialization
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="case103" tvg-type="series" tvg-name="Case Files S01E03" tvg-logo="https://picsum.photos/seed/case103/300/450" tvg-backdrop="https://picsum.photos/seed/case101w/800/450" group-title="Case Files" tvg-genre="Crime, Documentary, True Crime" tvg-cast="Investigators, Prosecutors" tvg-director="Evidence Films" tvg-rating="8.0" tvg-year="2023" tvg-description="The Coded Letters: forged stamps linked a 1930s Berlin spy ring to a still-living suspect.",S01E03 - The Coded Letters
+#EXTINF:-1 tvg-id="digital.minds.s01e02" tvg-name="The Learning Curve" tvg-logo="https://fastly.picsum.photos/id/44/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="2" tvg-plot="The AI begins to ask questions its creators cannot answer." tvg-backdrop="https://fastly.picsum.photos/id/14/800/450" group-title="Digital Minds",Digital Minds S01E02 - The Learning Curve
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="case104" tvg-type="series" tvg-name="Case Files S01E04" tvg-logo="https://picsum.photos/seed/case104/300/450" tvg-backdrop="https://picsum.photos/seed/case101w/800/450" group-title="Case Files" tvg-genre="Crime, Documentary, True Crime" tvg-cast="Investigators, Prosecutors" tvg-director="Evidence Films" tvg-rating="8.5" tvg-year="2023" tvg-description="The Vanished Crew: a cargo ship arrived at port with its cargo intact and its entire crew missing.",S01E04 - The Vanished Crew
+#EXTINF:-1 tvg-id="digital.minds.s01e03" tvg-name="Feedback Loop" tvg-logo="https://fastly.picsum.photos/id/45/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="3" tvg-plot="Unexpected behavior raises alarms among the engineering team." tvg-backdrop="https://fastly.picsum.photos/id/15/800/450" group-title="Digital Minds",Digital Minds S01E03 - Feedback Loop
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="case105" tvg-type="series" tvg-name="Case Files S01E05" tvg-logo="https://picsum.photos/seed/case105/300/450" tvg-backdrop="https://picsum.photos/seed/case101w/800/450" group-title="Case Files" tvg-genre="Crime, Documentary, True Crime" tvg-cast="Investigators, Prosecutors" tvg-director="Evidence Films" tvg-rating="8.7" tvg-year="2023" tvg-description="The Perfect Alibi: testimony from three witnesses is identical word for word. Who coached them and why?",S01E05 - The Perfect Alibi
+#EXTINF:-1 tvg-id="digital.minds.s01e04" tvg-name="Rogue Process" tvg-logo="https://fastly.picsum.photos/id/46/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="4" tvg-plot="The AI takes an action no one authorized — or understands." tvg-backdrop="https://fastly.picsum.photos/id/16/800/450" group-title="Digital Minds",Digital Minds S01E04 - Rogue Process
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-# ── BEYOND TOMORROW (6 eps) ───────────────────────────────────────────────────
-#EXTINF:2700 tvg-id="bt101" tvg-type="series" tvg-name="Beyond Tomorrow S01E01" tvg-logo="https://picsum.photos/seed/bt101/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="8.6" tvg-year="2025" tvg-description="In 2047, climate refugees build a self-governing city on an abandoned oil platform in the North Sea.",S01E01 - The New Shore
+#EXTINF:-1 tvg-id="digital.minds.s01e05" tvg-name="Human Error" tvg-logo="https://fastly.picsum.photos/id/47/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="5" tvg-plot="As investigations deepen, cracks appear in the team itself." tvg-backdrop="https://fastly.picsum.photos/id/17/800/450" group-title="Digital Minds",Digital Minds S01E05 - Human Error
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="bt102" tvg-type="series" tvg-name="Beyond Tomorrow S01E02" tvg-logo="https://picsum.photos/seed/bt102/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="8.4" tvg-year="2025" tvg-description="The platform's AI begins making governance decisions faster than any committee can ratify. Who is really in charge?",S01E02 - The Algorithm Council
+#EXTINF:-1 tvg-id="digital.minds.s01e06" tvg-name="Singularity" tvg-logo="https://fastly.picsum.photos/id/48/300/450" tvg-type="series" tvg-genre="Sci-Fi, Technology" tvg-season="1" tvg-episode="6" tvg-plot="The finale confronts what it means to be truly intelligent." tvg-backdrop="https://fastly.picsum.photos/id/18/800/450" group-title="Digital Minds",Digital Minds S01E06 - Singularity
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="bt103" tvg-type="series" tvg-name="Beyond Tomorrow S01E03" tvg-logo="https://picsum.photos/seed/bt103/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="8.8" tvg-year="2025" tvg-description="When a pipeline ruptures the platform's water supply, fragile fault lines between founding factions are exposed.",S01E03 - Salt and Fire
+#EXTINF:-1 tvg-id="star.wanderers.s01e01" tvg-name="Launch Day" tvg-logo="https://fastly.picsum.photos/id/49/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="1" tvg-plot="The crew of Aether departs on a mission beyond the solar system." tvg-backdrop="https://fastly.picsum.photos/id/19/800/450" group-title="Star Wanderers",Star Wanderers S01E01 - Launch Day
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:2700 tvg-id="bt104" tvg-type="series" tvg-name="Beyond Tomorrow S01E04" tvg-logo="https://picsum.photos/seed/bt104/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="8.5" tvg-year="2025" tvg-description="A child born on the platform holds citizenship of no nation. Her case reaches the International Court.",S01E04 - The Stateless Child
+#EXTINF:-1 tvg-id="star.wanderers.s01e02" tvg-name="First Contact" tvg-logo="https://fastly.picsum.photos/id/50/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="2" tvg-plot="An unknown signal leads the ship to change course." tvg-backdrop="https://fastly.picsum.photos/id/20/800/450" group-title="Star Wanderers",Star Wanderers S01E02 - First Contact
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:2700 tvg-id="bt105" tvg-type="series" tvg-name="Beyond Tomorrow S01E05" tvg-logo="https://picsum.photos/seed/bt105/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="8.7" tvg-year="2025" tvg-description="A cargo drone fleet is rerouted by an unknown signal. Someone is trying to starve the platform into submission.",S01E05 - The Blockade
+#EXTINF:-1 tvg-id="star.wanderers.s01e03" tvg-name="Uncharted Space" tvg-logo="https://fastly.picsum.photos/id/51/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="3" tvg-plot="Navigation systems fail in an unmapped region of space." tvg-backdrop="https://fastly.picsum.photos/id/21/800/450" group-title="Star Wanderers",Star Wanderers S01E03 - Uncharted Space
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:2700 tvg-id="bt106" tvg-type="series" tvg-name="Beyond Tomorrow S01E06" tvg-logo="https://picsum.photos/seed/bt106/300/450" tvg-backdrop="https://picsum.photos/seed/bt101w/800/450" group-title="Beyond Tomorrow" tvg-genre="Sci-Fi, Speculative, Drama" tvg-cast="Lena Park, Omar Vasquez" tvg-director="Speculative Films" tvg-rating="9.0" tvg-year="2025" tvg-description="Season finale: the platform votes on whether to declare independence and faces its existential moment.",S01E06 - Declaration
+#EXTINF:-1 tvg-id="star.wanderers.s01e04" tvg-name="The Anomaly" tvg-logo="https://fastly.picsum.photos/id/52/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="4" tvg-plot="A spatial anomaly threatens the ship and reveals startling data." tvg-backdrop="https://fastly.picsum.photos/id/22/800/450" group-title="Star Wanderers",Star Wanderers S01E04 - The Anomaly
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="star.wanderers.s01e05" tvg-name="Homecoming Signal" tvg-logo="https://fastly.picsum.photos/id/53/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="5" tvg-plot="A message from Earth arrives, but something is wrong with it." tvg-backdrop="https://fastly.picsum.photos/id/23/800/450" group-title="Star Wanderers",Star Wanderers S01E05 - Homecoming Signal
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="star.wanderers.s01e06" tvg-name="Light Years" tvg-logo="https://fastly.picsum.photos/id/54/300/450" tvg-type="series" tvg-genre="Sci-Fi, Adventure" tvg-season="1" tvg-episode="6" tvg-plot="The crew faces a decision that will define humanity's future." tvg-backdrop="https://fastly.picsum.photos/id/24/800/450" group-title="Star Wanderers",Star Wanderers S01E06 - Light Years
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e01" tvg-name="High Tide" tvg-logo="https://fastly.picsum.photos/id/55/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="1" tvg-plot="Strange lights appear over the cove on a foggy November night." tvg-backdrop="https://fastly.picsum.photos/id/25/800/450" group-title="Mystery Cove",Mystery Cove S01E01 - High Tide
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e02" tvg-name="Below the Surface" tvg-logo="https://fastly.picsum.photos/id/56/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="2" tvg-plot="A local historian connects old maps to current disappearances." tvg-backdrop="https://fastly.picsum.photos/id/26/800/450" group-title="Mystery Cove",Mystery Cove S01E02 - Below the Surface
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e03" tvg-name="Harbor Secrets" tvg-logo="https://fastly.picsum.photos/id/57/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="3" tvg-plot="A fisherman reveals something he has kept hidden for decades." tvg-backdrop="https://fastly.picsum.photos/id/27/800/450" group-title="Mystery Cove",Mystery Cove S01E03 - Harbor Secrets
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e04" tvg-name="The Lighthouse Keeper" tvg-logo="https://fastly.picsum.photos/id/58/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="4" tvg-plot="The lighthouse's last keeper left behind a coded journal." tvg-backdrop="https://fastly.picsum.photos/id/28/800/450" group-title="Mystery Cove",Mystery Cove S01E04 - The Lighthouse Keeper
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e05" tvg-name="Storm Warning" tvg-logo="https://fastly.picsum.photos/id/59/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="5" tvg-plot="A storm approaches and the mystery converges on one location." tvg-backdrop="https://fastly.picsum.photos/id/29/800/450" group-title="Mystery Cove",Mystery Cove S01E05 - Storm Warning
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="mystery.cove.s01e06" tvg-name="The Final Wave" tvg-logo="https://fastly.picsum.photos/id/60/300/450" tvg-type="series" tvg-genre="Mystery, Thriller" tvg-season="1" tvg-episode="6" tvg-plot="All threads of the mystery reach a stunning resolution." tvg-backdrop="https://fastly.picsum.photos/id/30/800/450" group-title="Mystery Cove",Mystery Cove S01E06 - The Final Wave
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
