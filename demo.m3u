@@ -1,0 +1,273 @@
+#EXTM3U
+
+#
+# WUWTV Demo Playlist
+# All content is royalty-free / public domain / Creative Commons licensed.
+# Videos: Blender Foundation (CC-BY) via Google TV sample CDN
+# Images: Wikimedia Commons (CC / Public Domain) + NASA (Public Domain)
+# Live streams: Mux & Bitmovin public HLS test streams (Blender CC-BY content)
+#
+
+##############################################################################
+# LIVE TV
+##############################################################################
+
+#EXTINF:-1 tvg-id="nature.wild.1" tvg-name="Nature Live HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/300px-Lion_waiting_in_Namibia.jpg" group-title="Nature & Wildlife",Nature Live HD
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="nature.wild.2" tvg-name="Wildlife Watch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/300px-Walking_tiger_female.jpg" group-title="Nature & Wildlife",Wildlife Watch
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="nature.wild.3" tvg-name="Oceans Alive" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/300px-The_Earth_seen_from_Apollo_17.jpg" group-title="Nature & Wildlife",Oceans Alive
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="nature.wild.4" tvg-name="Rainforest TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/300px-Kheops-Pyramid.jpg" group-title="Nature & Wildlife",Rainforest TV
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="nature.wild.5" tvg-name="Arctic Expedition" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/300px-FullMoon2010.jpg" group-title="Nature & Wildlife",Arctic Expedition
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="space.sci.1" tvg-name="Cosmos Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/300px-The_Earth_seen_from_Apollo_17.jpg" group-title="Space & Science",Cosmos Live
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="space.sci.2" tvg-name="NASA Universe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/300px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Space & Science",NASA Universe
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="space.sci.3" tvg-name="Deep Space HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/300px-OSIRIS_Mars_true_color.jpg" group-title="Space & Science",Deep Space HD
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="space.sci.4" tvg-name="Science Now" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/300px-FullMoon2010.jpg" group-title="Space & Science",Science Now
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="space.sci.5" tvg-name="Astronomy Tonight" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/300px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Space & Science",Astronomy Tonight
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="world.doc.1" tvg-name="World Stories HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG/300px-Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG" group-title="World Documentary",World Stories HD
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="world.doc.2" tvg-name="Global Voices" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/300px-The_Earth_seen_from_Apollo_17.jpg" group-title="World Documentary",Global Voices
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="world.doc.3" tvg-name="Heritage Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/300px-Kheops-Pyramid.jpg" group-title="World Documentary",Heritage Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="world.doc.4" tvg-name="Human Planet Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/300px-Lion_waiting_in_Namibia.jpg" group-title="World Documentary",Human Planet Live
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="world.doc.5" tvg-name="Culture World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="World Documentary",Culture World
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="arts.cult.1" tvg-name="Art Gallery Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/230px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" group-title="Arts & Culture",Art Gallery Live
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="arts.cult.2" tvg-name="Classical Music TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="Arts & Culture",Classical Music TV
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="arts.cult.3" tvg-name="Opera House" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/230px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" group-title="Arts & Culture",Opera House
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="arts.cult.4" tvg-name="Museum Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/300px-Kheops-Pyramid.jpg" group-title="Arts & Culture",Museum Channel
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="kids.anim.1" tvg-name="Animation World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Kids & Animation",Animation World
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="kids.anim.2" tvg-name="Story Time Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Elephants_Dream_s8_proog.jpg/300px-Elephants_Dream_s8_proog.jpg" group-title="Kids & Animation",Story Time Live
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="kids.anim.3" tvg-name="Creative Kids TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="Kids & Animation",Creative Kids TV
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="kids.anim.4" tvg-name="Cartoon Classics" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Kids & Animation",Cartoon Classics
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="travel.adv.1" tvg-name="World Traveler HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG/300px-Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG" group-title="Travel & Adventure",World Traveler HD
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="travel.adv.2" tvg-name="Adventure Now" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/300px-Walking_tiger_female.jpg" group-title="Travel & Adventure",Adventure Now
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="travel.adv.3" tvg-name="Hidden Places" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/300px-FullMoon2010.jpg" group-title="Travel & Adventure",Hidden Places
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="travel.adv.4" tvg-name="Expedition Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/300px-The_Earth_seen_from_Apollo_17.jpg" group-title="Travel & Adventure",Expedition Live
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="travel.adv.5" tvg-name="Nature Escapes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/300px-Lion_waiting_in_Namibia.jpg" group-title="Travel & Adventure",Nature Escapes
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
+##############################################################################
+# MOVIES
+# URL ends in .mp4 → auto-detected as movie by parser
+##############################################################################
+
+#EXTINF:5760 tvg-id="anim.class.1" tvg-name="Big Buck Bunny" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" group-title="Animation Classics",Big Buck Bunny (2008)
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:654 tvg-id="anim.class.2" tvg-name="Elephants Dream" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Elephants_Dream_s8_proog.jpg/400px-Elephants_Dream_s8_proog.jpg" group-title="Animation Classics",Elephants Dream (2006)
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:888 tvg-id="anim.class.3" tvg-name="Sintel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Animation Classics",Sintel (2010)
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:720 tvg-id="anim.class.4" tvg-name="Cosmos Laundromat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Animation Classics",Cosmos Laundromat (2015)
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+#EXTINF:450 tvg-id="anim.class.5" tvg-name="Tears of Steel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Animation Classics",Tears of Steel (2012)
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+
+#EXTINF:60 tvg-id="short.film.1" tvg-name="For Bigger Blazes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Short Films Collection",For Bigger Blazes
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:60 tvg-id="short.film.2" tvg-name="For Bigger Escapes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/400px-Walking_tiger_female.jpg" group-title="Short Films Collection",For Bigger Escapes
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+#EXTINF:60 tvg-id="short.film.3" tvg-name="For Bigger Fun" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="Short Films Collection",For Bigger Fun
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
+#EXTINF:60 tvg-id="short.film.4" tvg-name="For Bigger Joyrides" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Short Films Collection",For Bigger Joyrides
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:60 tvg-id="short.film.5" tvg-name="For Bigger Meltdowns" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg" group-title="Short Films Collection",For Bigger Meltdowns
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+#EXTINF:5400 tvg-id="doc.film.1" tvg-name="Ocean Deep: Life Below" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Documentary Films",Ocean Deep: Life Below
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:5400 tvg-id="doc.film.2" tvg-name="Ancient Wonders Revealed" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/400px-Kheops-Pyramid.jpg" group-title="Documentary Films",Ancient Wonders Revealed
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:5400 tvg-id="doc.film.3" tvg-name="The Human Story" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG/400px-Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG" group-title="Documentary Films",The Human Story
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
+#EXTINF:5400 tvg-id="doc.film.4" tvg-name="Wild Africa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/400px-Lion_waiting_in_Namibia.jpg" group-title="Documentary Films",Wild Africa
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:5400 tvg-id="doc.film.5" tvg-name="Lost Civilizations" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/400px-Kheops-Pyramid.jpg" group-title="Documentary Films",Lost Civilizations
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+#EXTINF:5400 tvg-id="adv.film.1" tvg-name="Into The Wild Unknown" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/400px-Walking_tiger_female.jpg" group-title="Adventure Films",Into The Wild Unknown
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+
+#EXTINF:5400 tvg-id="adv.film.2" tvg-name="Mountain Warriors" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Adventure Films",Mountain Warriors
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+
+#EXTINF:5400 tvg-id="adv.film.3" tvg-name="Desert Crossing" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Adventure Films",Desert Crossing
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4
+
+#EXTINF:5400 tvg-id="adv.film.4" tvg-name="The Last Frontier" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg" group-title="Adventure Films",The Last Frontier
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4
+
+#EXTINF:5400 tvg-id="scifi.film.1" tvg-name="Beyond The Stars" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Sci-Fi Films",Beyond The Stars
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+
+#EXTINF:5400 tvg-id="scifi.film.2" tvg-name="Orbital Station" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Sci-Fi Films",Orbital Station
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:5400 tvg-id="scifi.film.3" tvg-name="First Contact" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Sci-Fi Films",First Contact
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:5400 tvg-id="scifi.film.4" tvg-name="Quantum Horizon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Sci-Fi Films",Quantum Horizon
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:5400 tvg-id="drama.film.1" tvg-name="The Lighthouse Keeper" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/230px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" group-title="Drama",The Lighthouse Keeper
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
+#EXTINF:5400 tvg-id="drama.film.2" tvg-name="Letters to the Wind" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="Drama",Letters to the Wind
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:5400 tvg-id="drama.film.3" tvg-name="The Old River Road" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/400px-Lion_waiting_in_Namibia.jpg" group-title="Drama",The Old River Road
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+#EXTINF:5400 tvg-id="drama.film.4" tvg-name="Echoes of Tomorrow" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Drama",Echoes of Tomorrow
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+
+##############################################################################
+# SERIES
+# Name includes S##E## pattern → auto-detected as series episode by parser
+# Same group-title groups all episodes of the same series together
+##############################################################################
+
+#EXTINF:2700 tvg-id="series.cosmos.s01e01" tvg-name="Cosmos: A Space Journey S01E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Cosmos: A Space Journey",S01E01 - Stargazing: Our Universe
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:2700 tvg-id="series.cosmos.s01e02" tvg-name="Cosmos: A Space Journey S01E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Cosmos: A Space Journey",S01E02 - The Milky Way Unveiled
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:2700 tvg-id="series.cosmos.s01e03" tvg-name="Cosmos: A Space Journey S01E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Cosmos: A Space Journey",S01E03 - Worlds of Light and Shadow
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:2700 tvg-id="series.cosmos.s02e01" tvg-name="Cosmos: A Space Journey S02E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Cosmos: A Space Journey",S02E01 - Dark Matter Mysteries
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+#EXTINF:2700 tvg-id="series.cosmos.s02e02" tvg-name="Cosmos: A Space Journey S02E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Cosmos: A Space Journey",S02E02 - The Edge of Time
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
+#EXTINF:2700 tvg-id="series.cosmos.s02e03" tvg-name="Cosmos: A Space Journey S02E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg" group-title="Cosmos: A Space Journey",S02E03 - Beyond the Observable
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s01e01" tvg-name="Our Living Planet S01E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/400px-Lion_waiting_in_Namibia.jpg" group-title="Our Living Planet",S01E01 - Forests: The Lungs of Earth
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s01e02" tvg-name="Our Living Planet S01E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Our Living Planet",S01E02 - Oceans: Blue Heart of the World
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s01e03" tvg-name="Our Living Planet S01E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Our Living Planet",S01E03 - Deserts: Life in the Extreme
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s01e04" tvg-name="Our Living Planet S01E04" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Our Living Planet",S01E04 - Mountains: Peaks of the World
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s02e01" tvg-name="Our Living Planet S02E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg" group-title="Our Living Planet",S02E01 - Arctic: The Frozen North
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+
+#EXTINF:2700 tvg-id="series.planet.s02e02" tvg-name="Our Living Planet S02E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG/400px-Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG" group-title="Our Living Planet",S02E02 - Amazon: River of Life
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4
+
+#EXTINF:2700 tvg-id="series.tiny.s01e01" tvg-name="Tiny Worlds S01E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/400px-Walking_tiger_female.jpg" group-title="Tiny Worlds",S01E01 - The Insect Kingdom
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:2700 tvg-id="series.tiny.s01e02" tvg-name="Tiny Worlds S01E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/300px-FullMoon2010.jpg" group-title="Tiny Worlds",S01E02 - Microbe Universe
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:2700 tvg-id="series.tiny.s01e03" tvg-name="Tiny Worlds S01E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Tiny Worlds",S01E03 - Life in a Drop of Water
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:2700 tvg-id="series.tiny.s01e04" tvg-name="Tiny Worlds S01E04" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/400px-Lion_waiting_in_Namibia.jpg" group-title="Tiny Worlds",S01E04 - The Underground Network
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s01e01" tvg-name="Ancient Mysteries S01E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/400px-Kheops-Pyramid.jpg" group-title="Ancient Mysteries",S01E01 - Pyramids: Secrets of the Builders
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s01e02" tvg-name="Ancient Mysteries S01E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG/400px-Machu_Picchu%2C_Peru%2C_2015-07-30%2C_DD_46.JPG" group-title="Ancient Mysteries",S01E02 - Lost Cities of the Americas
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s01e03" tvg-name="Ancient Mysteries S01E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" group-title="Ancient Mysteries",S01E03 - The Mystery of Stonehenge
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s02e01" tvg-name="Ancient Mysteries S02E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Ancient Mysteries",S02E01 - Atlantis: Myth or Reality
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s02e02" tvg-name="Ancient Mysteries S02E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Ancient Mysteries",S02E02 - Ancient Navigation: Sailing by Stars
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+
+#EXTINF:2700 tvg-id="series.ancient.s02e03" tvg-name="Ancient Mysteries S02E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/400px-Kheops-Pyramid.jpg" group-title="Ancient Mysteries",S02E03 - The Oracle of Delphi
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s01e01" tvg-name="Tech Frontiers S01E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Tech Frontiers",S01E01 - The Age of Artificial Intelligence
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s01e02" tvg-name="Tech Frontiers S01E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/400px-OSIRIS_Mars_true_color.jpg" group-title="Tech Frontiers",S01E02 - Quantum Computing Explained
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s01e03" tvg-name="Tech Frontiers S01E03" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg" group-title="Tech Frontiers",S01E03 - The Internet of Everything
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s01e04" tvg-name="Tech Frontiers S01E04" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-0a-99.jpg/400px-ESO-VLT-Laser-phot-0a-99.jpg" group-title="Tech Frontiers",S01E04 - Renewable Energy Revolution
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s02e01" tvg-name="Tech Frontiers S02E01" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg" group-title="Tech Frontiers",S02E01 - Mars: The Next Human Frontier
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+#EXTINF:2700 tvg-id="series.tech.s02e02" tvg-name="Tech Frontiers S02E02" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/400px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg" group-title="Tech Frontiers",S02E02 - The Deep Ocean Robots
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
