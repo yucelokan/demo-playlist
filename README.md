@@ -5,15 +5,23 @@ Premium demo IPTV assets for Apple App Store review, screenshot automation, and 
 ## Playlist URLs
 
 ```
-https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.m3u
-https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.en-US.m3u
-https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.tr.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/feature/aso-master-assets/demo.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/feature/aso-master-assets/demo.en-US.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/feature/aso-master-assets/demo.tr.m3u
 ```
+
+These URLs point at the current TMDB-based ASO dataset. Do not use the `main` branch raw URLs for screenshot testing because `main` still serves older playlist content.
 
 ## Generate Premium Assets
 
 ```sh
-python3 scripts/generate_premium_demo_assets.py
+TMDB_API_KEY=YOUR_KEY python3 scripts/generate_premium_demo_assets.py
+```
+
+Or pass credentials explicitly:
+
+```sh
+python3 scripts/generate_premium_demo_assets.py --api-key YOUR_KEY
 ```
 
 This command regenerates:
@@ -25,6 +33,7 @@ This command regenerates:
 - `demo.m3u`
 - `demo.json`
 - `premium_screenshot_map.json`
+- `screenshot_config.aso-master.json`
 
 ## Content
 
@@ -36,13 +45,15 @@ The premium screenshot set is localized for `en-US` and `tr` and follows this st
 | 🎬 Movies | 5 | 50 movies |
 | 📺 Series | 5 | 50 series / 150 episodes |
 
-Theme: High-Tension, Cinematic, Plot-Twist, Dark Mystery, Action
+Playlist version: `aso-master-v2`
+
+Theme: high-tension, plot-twist, dark mystery, sci-fi, action
 
 ### Screenshot anchors
 
 - Series dashboard category: `Mind-Bending Thrillers`
-- Player / detail anchor movie: `The Seventh Cipher`
-- Live category browser: `Premium Sports HD`
+- Player / detail anchor movie: `Tears of Steel`
+- Live category browser: `Premium Sports` / `Premium Spor`
 
 ## Metadata
 
@@ -50,9 +61,9 @@ Movies and series episodes include: `tvg-description`, `tvg-cast`, `tvg-director
 
 ## Sources
 
-- **Live streams:** public HLS sample streams from Mux and Apple sample feeds
-- **VOD streams:** Blender and Google sample assets suitable for test automation
-- **Images:** Unsplash Source API
+- **Playback URL:** every live, movie, and episode entry resolves to the same public Sintel stream for deterministic screenshot playback
+- **Movie/series metadata and artwork:** TMDB
+- **Live channel logos:** UI Avatars
 
 ## How to add to WUWTV
 
@@ -61,4 +72,6 @@ Movies and series episodes include: `tvg-description`, `tvg-cast`, `tvg-director
 3. Paste either the `demo.en-US.m3u` or `demo.tr.m3u` raw URL
 4. Tap **Load**
 
-The playlist will be parsed automatically — live channels, movies, and series episodes are detected via `tvg-type`.
+If you imported an older demo playlist before, remove it first or bump the playlist version in the app flow; otherwise WUWTV may continue showing cached legacy content.
+
+The playlist will be parsed automatically. Live channels, movies, and series episodes are detected via `tvg-type`.
