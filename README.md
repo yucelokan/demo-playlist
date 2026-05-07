@@ -1,57 +1,64 @@
 # WUWTV Demo Playlist
 
-A copyright-free demo IPTV playlist for Apple App Store review and testing purposes.
+Premium demo IPTV assets for Apple App Store review, screenshot automation, and ASO templating.
 
-## Playlist URL
+## Playlist URLs
 
 ```
 https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.en-US.m3u
+https://raw.githubusercontent.com/yucelokan/demo-playlist/main/demo.tr.m3u
 ```
 
-## Content (v5)
+## Generate Premium Assets
 
-All content is copyright-free / CC0 / public test streams — safe for App Store review:
+```sh
+python3 scripts/generate_premium_demo_assets.py
+```
 
-| Type | Groups | Entries |
-|------|--------|---------|
-| 📡 Live TV | Nature & Wildlife, Space & Science, World Documentary, Arts & Culture, Kids & Education, Travel & Adventure, History & Heritage, Technology & Innovation, Sports & Fitness, Music & Lifestyle | **100 channels** |
-| 🎬 Movies | Nature Documentary, Space & Sci-Fi, Adventure, Animation, Drama, History, Mystery & Thriller, Family, Crime, Romance | **100 films** |
-| 📺 Series | 10 genre categories × 10 series × 3 episodes | **300 episodes** (100 unique series) |
+This command regenerates:
 
-**Total: 500 entries**
+- `demo.en-US.m3u`
+- `demo.tr.m3u`
+- `demo.en-US.json`
+- `demo.tr.json`
+- `demo.m3u`
+- `demo.json`
+- `premium_screenshot_map.json`
 
-### Series genre categories (10)
+## Content
 
-| Genre | Series count |
-|-------|-------------|
-| Documentary | 10 |
-| Crime | 10 |
-| Sci-Fi | 10 |
-| Mystery | 10 |
-| Drama | 10 |
-| Adventure | 10 |
-| Animation | 10 |
-| History | 10 |
-| Romance | 10 |
-| Thriller | 10 |
+The premium screenshot set is localized for `en-US` and `tr` and follows this structure:
 
-### Rich metadata per entry
+| Type | Categories | Items |
+|------|------------|-------|
+| 📡 Live TV | 5 | 50 channels |
+| 🎬 Movies | 5 | 50 movies |
+| 📺 Series | 5 | 50 series / 150 episodes |
 
-Movies and series episodes include: `tvg-description`, `tvg-cast`, `tvg-director`, `tvg-year`, `tvg-rating`, `tvg-genre`, `tvg-backdrop`
+Theme: High-Tension, Cinematic, Plot-Twist, Dark Mystery, Action
+
+### Screenshot anchors
+
+- Series dashboard category: `Mind-Bending Thrillers`
+- Player / detail anchor movie: `The Seventh Cipher`
+- Live category browser: `Premium Sports HD`
+
+## Metadata
+
+Movies and series episodes include: `tvg-description`, `tvg-cast`, `tvg-director`, `tvg-year`, `tvg-rating`, `tvg-genre`, and `tvg-backdrop`.
 
 ## Sources
 
-- **Live streams:** [Mux](https://test-streams.mux.dev/) public HLS test stream & [Apple Developer](https://developer.apple.com/streaming/examples/) HLS sample streams (Big Buck Bunny, CC-BY)
-- **Images:** [Picsum Photos](https://picsum.photos/) via CDN (CC0, no attribution required)
-  - Live logos: 400×225 (landscape) — `picsum.photos/id/{n}/400/225`
-  - Movie / Series covers: 300×450 (portrait) — `picsum.photos/id/{n}/300/450`
-  - Backdrops: 800×450 — `picsum.photos/id/{n}/800/450`
+- **Live streams:** public HLS sample streams from Mux and Apple sample feeds
+- **VOD streams:** Blender and Google sample assets suitable for test automation
+- **Images:** Unsplash Source API
 
 ## How to add to WUWTV
 
 1. Open the WUWTV app
 2. Tap **Add Playlist**
-3. Paste the raw URL above
+3. Paste either the `demo.en-US.m3u` or `demo.tr.m3u` raw URL
 4. Tap **Load**
 
 The playlist will be parsed automatically — live channels, movies, and series episodes are detected via `tvg-type`.
