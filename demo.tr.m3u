@@ -1,163 +1,163 @@
 #EXTM3U
 
-# WUW TV ASO Master Demo Playlist aso-master-v3
+# WUW TV ASO Master Demo Playlist aso-master-v4
 # Locale: tr
 # Images: TMDB posters/backdrops for approved public-domain / open-source IDs
 # Streams: Sintel sample stream for screenshot-safe playback
 
 # LIVE - Premium Spor
-#EXTINF:-1 tvg-id="live_premium-spor_01" tvg-name="WUW Spor HD" tvg-logo="https://ui-avatars.com/api/?name=WUW%20Spor%20HD&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="WUW Spor HD delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",WUW Spor HD
+#EXTINF:-1 tvg-id="live_premium-sports_01" tvg-name="Sport HD 1" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%201&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 1 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 1
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_02" tvg-name="Arena Prime" tvg-logo="https://ui-avatars.com/api/?name=Arena%20Prime&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Arena Prime delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Arena Prime
+#EXTINF:-1 tvg-id="live_premium-sports_02" tvg-name="Sport HD 2" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%202&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 2 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 2
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_03" tvg-name="Zafer Bir" tvg-logo="https://ui-avatars.com/api/?name=Zafer%20Bir&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Zafer Bir delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Zafer Bir
+#EXTINF:-1 tvg-id="live_premium-sports_03" tvg-name="Sport HD 3" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%203&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 3 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 3
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_04" tvg-name="Derbi Max" tvg-logo="https://ui-avatars.com/api/?name=Derbi%20Max&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Derbi Max delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Derbi Max
+#EXTINF:-1 tvg-id="live_premium-sports_04" tvg-name="Sport HD 4" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%204&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 4 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 4
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_05" tvg-name="Tribün Canlı" tvg-logo="https://ui-avatars.com/api/?name=Trib%C3%BCn%20Canl%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Tribün Canlı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Tribün Canlı
+#EXTINF:-1 tvg-id="live_premium-sports_05" tvg-name="Sport HD 5" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%205&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 5 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 5
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_06" tvg-name="Şampiyonlar Akışı" tvg-logo="https://ui-avatars.com/api/?name=%C5%9Eampiyonlar%20Ak%C4%B1%C5%9F%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Şampiyonlar Akışı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Şampiyonlar Akışı
+#EXTINF:-1 tvg-id="live_premium-sports_06" tvg-name="Sport HD 6" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%206&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 6 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 6
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_07" tvg-name="Son Düdük TV" tvg-logo="https://ui-avatars.com/api/?name=Son%20D%C3%BCd%C3%BCk%20TV&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Son Düdük TV delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Son Düdük TV
+#EXTINF:-1 tvg-id="live_premium-sports_07" tvg-name="Sport HD 7" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%207&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 7 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 7
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_08" tvg-name="Gol Çizgisi 24" tvg-logo="https://ui-avatars.com/api/?name=Gol%20%C3%87izgisi%2024&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Gol Çizgisi 24 delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Gol Çizgisi 24
+#EXTINF:-1 tvg-id="live_premium-sports_08" tvg-name="Sport HD 8" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%208&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 8 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 8
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_09" tvg-name="Kritik Spor" tvg-logo="https://ui-avatars.com/api/?name=Kritik%20Spor&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Kritik Spor delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Kritik Spor
+#EXTINF:-1 tvg-id="live_premium-sports_09" tvg-name="Sport HD 9" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%209&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 9 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 9
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_premium-spor_10" tvg-name="Stadyum Nabzı" tvg-logo="https://ui-avatars.com/api/?name=Stadyum%20Nabz%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Stadyum Nabzı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Premium Spor",Stadyum Nabzı
+#EXTINF:-1 tvg-id="live_premium-sports_10" tvg-name="Sport HD 10" tvg-logo="https://ui-avatars.com/api/?name=Sport%20HD%2010&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Premium Spor" tvg-description="Sport HD 10 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Premium Spor",Sport HD 10
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
 # LIVE - 7/24 Aksiyon
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_01" tvg-name="Aksiyon Max" tvg-logo="https://ui-avatars.com/api/?name=Aksiyon%20Max&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Aksiyon Max delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Aksiyon Max
+#EXTINF:-1 tvg-id="live_24-7-action_01" tvg-name="Action Max 1" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%201&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 1 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 1
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_02" tvg-name="Darbe Merkezi" tvg-logo="https://ui-avatars.com/api/?name=Darbe%20Merkezi&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Darbe Merkezi delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Darbe Merkezi
+#EXTINF:-1 tvg-id="live_24-7-action_02" tvg-name="Action Max 2" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%202&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 2 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 2
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_03" tvg-name="Nitro Sinema" tvg-logo="https://ui-avatars.com/api/?name=Nitro%20Sinema&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Nitro Sinema delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Nitro Sinema
+#EXTINF:-1 tvg-id="live_24-7-action_03" tvg-name="Action Max 3" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%203&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 3 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 3
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_04" tvg-name="Hız Şeridi TV" tvg-logo="https://ui-avatars.com/api/?name=H%C4%B1z%20%C5%9Eeridi%20TV&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Hız Şeridi TV delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Hız Şeridi TV
+#EXTINF:-1 tvg-id="live_24-7-action_04" tvg-name="Action Max 4" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%204&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 4 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 4
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_05" tvg-name="Etki Bir" tvg-logo="https://ui-avatars.com/api/?name=Etki%20Bir&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Etki Bir delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Etki Bir
+#EXTINF:-1 tvg-id="live_24-7-action_05" tvg-name="Action Max 5" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%205&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 5 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 5
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_06" tvg-name="Gece Baskını" tvg-logo="https://ui-avatars.com/api/?name=Gece%20Bask%C4%B1n%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Gece Baskını delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Gece Baskını
+#EXTINF:-1 tvg-id="live_24-7-action_06" tvg-name="Action Max 6" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%206&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 6 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 6
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_07" tvg-name="Adrenalin HD" tvg-logo="https://ui-avatars.com/api/?name=Adrenalin%20HD&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Adrenalin HD delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Adrenalin HD
+#EXTINF:-1 tvg-id="live_24-7-action_07" tvg-name="Action Max 7" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%207&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 7 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 7
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_08" tvg-name="İndiriş 24" tvg-logo="https://ui-avatars.com/api/?name=%C4%B0ndiri%C5%9F%2024&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="İndiriş 24 delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",İndiriş 24
+#EXTINF:-1 tvg-id="live_24-7-action_08" tvg-name="Action Max 8" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%208&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 8 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 8
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_09" tvg-name="Hızlı Aksiyon" tvg-logo="https://ui-avatars.com/api/?name=H%C4%B1zl%C4%B1%20Aksiyon&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Hızlı Aksiyon delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Hızlı Aksiyon
+#EXTINF:-1 tvg-id="live_24-7-action_09" tvg-name="Action Max 9" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%209&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 9 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 9
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_7-24-aksiyon_10" tvg-name="Kırmızı Çizgi Şimdi" tvg-logo="https://ui-avatars.com/api/?name=K%C4%B1rm%C4%B1z%C4%B1%20%C3%87izgi%20%C5%9Eimdi&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Kırmızı Çizgi Şimdi delivers a premium mock live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Kırmızı Çizgi Şimdi
+#EXTINF:-1 tvg-id="live_24-7-action_10" tvg-name="Action Max 10" tvg-logo="https://ui-avatars.com/api/?name=Action%20Max%2010&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="7/24 Aksiyon" tvg-description="Action Max 10 is a fictional demo live channel tailored for App Store screenshot automation." group-title="7/24 Aksiyon",Action Max 10
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-# LIVE - Haber Ağı
-#EXTINF:-1 tvg-id="live_haber-ağı_01" tvg-name="Küresel Haber 24" tvg-logo="https://ui-avatars.com/api/?name=K%C3%BCresel%20Haber%2024&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Küresel Haber 24 delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Küresel Haber 24
+# LIVE - Cinema Channels
+#EXTINF:-1 tvg-id="live_cinema-channels_01" tvg-name="Cinema HD 1" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%201&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 1 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 1
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_02" tvg-name="Metro Brifing" tvg-logo="https://ui-avatars.com/api/?name=Metro%20Brifing&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Metro Brifing delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Metro Brifing
+#EXTINF:-1 tvg-id="live_cinema-channels_02" tvg-name="Cinema HD 2" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%202&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 2 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 2
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_03" tvg-name="Dünya Masası" tvg-logo="https://ui-avatars.com/api/?name=D%C3%BCnya%20Masas%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Dünya Masası delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Dünya Masası
+#EXTINF:-1 tvg-id="live_cinema-channels_03" tvg-name="Cinema HD 3" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%203&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 3 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 3
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_04" tvg-name="Şehir Raporu" tvg-logo="https://ui-avatars.com/api/?name=%C5%9Eehir%20Raporu&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Şehir Raporu delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Şehir Raporu
+#EXTINF:-1 tvg-id="live_cinema-channels_04" tvg-name="Cinema HD 4" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%204&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 4 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 4
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_05" tvg-name="Ana Bülten" tvg-logo="https://ui-avatars.com/api/?name=Ana%20B%C3%BClten&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Ana Bülten delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Ana Bülten
+#EXTINF:-1 tvg-id="live_cinema-channels_05" tvg-name="Cinema HD 5" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%205&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 5 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 5
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_06" tvg-name="Kriz Nöbeti" tvg-logo="https://ui-avatars.com/api/?name=Kriz%20N%C3%B6beti&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Kriz Nöbeti delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Kriz Nöbeti
+#EXTINF:-1 tvg-id="live_cinema-channels_06" tvg-name="Cinema HD 6" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%206&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 6 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 6
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_07" tvg-name="Sabah Hattı" tvg-logo="https://ui-avatars.com/api/?name=Sabah%20Hatt%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Sabah Hattı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Sabah Hattı
+#EXTINF:-1 tvg-id="live_cinema-channels_07" tvg-name="Cinema HD 7" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%207&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 7 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 7
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_08" tvg-name="Haber Merkezi HD" tvg-logo="https://ui-avatars.com/api/?name=Haber%20Merkezi%20HD&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Haber Merkezi HD delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Haber Merkezi HD
+#EXTINF:-1 tvg-id="live_cinema-channels_08" tvg-name="Cinema HD 8" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%208&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 8 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 8
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_09" tvg-name="Saat Başı Güncelleme" tvg-logo="https://ui-avatars.com/api/?name=Saat%20Ba%C5%9F%C4%B1%20G%C3%BCncelleme&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Saat Başı Güncelleme delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Saat Başı Güncelleme
+#EXTINF:-1 tvg-id="live_cinema-channels_09" tvg-name="Cinema HD 9" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%209&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 9 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 9
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_haber-ağı_10" tvg-name="Başkent Canlı" tvg-logo="https://ui-avatars.com/api/?name=Ba%C5%9Fkent%20Canl%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Haber Ağı" tvg-description="Başkent Canlı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Haber Ağı",Başkent Canlı
+#EXTINF:-1 tvg-id="live_cinema-channels_10" tvg-name="Cinema HD 10" tvg-logo="https://ui-avatars.com/api/?name=Cinema%20HD%2010&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Cinema Channels" tvg-description="Cinema HD 10 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Cinema Channels",Cinema HD 10
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
 # LIVE - Belgeseller
-#EXTINF:-1 tvg-id="live_belgeseller_01" tvg-name="Doğa Akışı" tvg-logo="https://ui-avatars.com/api/?name=Do%C4%9Fa%20Ak%C4%B1%C5%9F%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Doğa Akışı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Doğa Akışı
+#EXTINF:-1 tvg-id="live_documentaries_01" tvg-name="Docu HD 1" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%201&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 1 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 1
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_02" tvg-name="Tarih Kasası" tvg-logo="https://ui-avatars.com/api/?name=Tarih%20Kasas%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Tarih Kasası delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Tarih Kasası
+#EXTINF:-1 tvg-id="live_documentaries_02" tvg-name="Docu HD 2" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%202&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 2 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 2
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_03" tvg-name="Bilim Atlası" tvg-logo="https://ui-avatars.com/api/?name=Bilim%20Atlas%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Bilim Atlası delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Bilim Atlası
+#EXTINF:-1 tvg-id="live_documentaries_03" tvg-name="Docu HD 3" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%203&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 3 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 3
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_04" tvg-name="Derin Dünya TV" tvg-logo="https://ui-avatars.com/api/?name=Derin%20D%C3%BCnya%20TV&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Derin Dünya TV delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Derin Dünya TV
+#EXTINF:-1 tvg-id="live_documentaries_04" tvg-name="Docu HD 4" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%204&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 4 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 4
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_05" tvg-name="Açık Arşiv" tvg-logo="https://ui-avatars.com/api/?name=A%C3%A7%C4%B1k%20Ar%C5%9Fiv&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Açık Arşiv delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Açık Arşiv
+#EXTINF:-1 tvg-id="live_documentaries_05" tvg-name="Docu HD 5" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%205&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 5 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 5
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_06" tvg-name="Vahşi Ufuk" tvg-logo="https://ui-avatars.com/api/?name=Vah%C5%9Fi%20Ufuk&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Vahşi Ufuk delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Vahşi Ufuk
+#EXTINF:-1 tvg-id="live_documentaries_06" tvg-name="Docu HD 6" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%206&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 6 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 6
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_07" tvg-name="Eser Kanalı" tvg-logo="https://ui-avatars.com/api/?name=Eser%20Kanal%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Eser Kanalı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Eser Kanalı
+#EXTINF:-1 tvg-id="live_documentaries_07" tvg-name="Docu HD 7" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%207&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 7 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 7
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_08" tvg-name="Gerçek Hikâye Şimdi" tvg-logo="https://ui-avatars.com/api/?name=Ger%C3%A7ek%20Hik%C3%A2ye%20%C5%9Eimdi&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Gerçek Hikâye Şimdi delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Gerçek Hikâye Şimdi
+#EXTINF:-1 tvg-id="live_documentaries_08" tvg-name="Docu HD 8" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%208&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 8 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 8
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_09" tvg-name="Keşif Sinyali" tvg-logo="https://ui-avatars.com/api/?name=Ke%C5%9Fif%20Sinyali&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Keşif Sinyali delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",Keşif Sinyali
+#EXTINF:-1 tvg-id="live_documentaries_09" tvg-name="Docu HD 9" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%209&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 9 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 9
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_belgeseller_10" tvg-name="İçgörü Belgeselleri" tvg-logo="https://ui-avatars.com/api/?name=%C4%B0%C3%A7g%C3%B6r%C3%BC%20Belgeselleri&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="İçgörü Belgeselleri delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Belgeseller",İçgörü Belgeselleri
+#EXTINF:-1 tvg-id="live_documentaries_10" tvg-name="Docu HD 10" tvg-logo="https://ui-avatars.com/api/?name=Docu%20HD%2010&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Belgeseller" tvg-description="Docu HD 10 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Belgeseller",Docu HD 10
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
 # LIVE - Müzik
-#EXTINF:-1 tvg-id="live_müzik_01" tvg-name="Klasik Sinema" tvg-logo="https://ui-avatars.com/api/?name=Klasik%20Sinema&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Klasik Sinema delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Klasik Sinema
+#EXTINF:-1 tvg-id="live_music_01" tvg-name="Music Mix 1" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%201&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 1 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 1
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_02" tvg-name="Sahne Bir Müzik" tvg-logo="https://ui-avatars.com/api/?name=Sahne%20Bir%20M%C3%BCzik&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Sahne Bir Müzik delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Sahne Bir Müzik
+#EXTINF:-1 tvg-id="live_music_02" tvg-name="Music Mix 2" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%202&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 2 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 2
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_03" tvg-name="Ritim Canlı" tvg-logo="https://ui-avatars.com/api/?name=Ritim%20Canl%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Ritim Canlı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Ritim Canlı
+#EXTINF:-1 tvg-id="live_music_03" tvg-name="Music Mix 3" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%203&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 3 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 3
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_04" tvg-name="Neon Seanslar" tvg-logo="https://ui-avatars.com/api/?name=Neon%20Seanslar&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Neon Seanslar delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Neon Seanslar
+#EXTINF:-1 tvg-id="live_music_04" tvg-name="Music Mix 4" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%204&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 4 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 4
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_05" tvg-name="Ses Dalgası TV" tvg-logo="https://ui-avatars.com/api/?name=Ses%20Dalgas%C4%B1%20TV&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Ses Dalgası TV delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Ses Dalgası TV
+#EXTINF:-1 tvg-id="live_music_05" tvg-name="Music Mix 5" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%205&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 5 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 5
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_06" tvg-name="Akustik Oda" tvg-logo="https://ui-avatars.com/api/?name=Akustik%20Oda&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Akustik Oda delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Akustik Oda
+#EXTINF:-1 tvg-id="live_music_06" tvg-name="Music Mix 6" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%206&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 6 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 6
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_07" tvg-name="Retro Ritimler" tvg-logo="https://ui-avatars.com/api/?name=Retro%20Ritimler&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Retro Ritimler delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Retro Ritimler
+#EXTINF:-1 tvg-id="live_music_07" tvg-name="Music Mix 7" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%207&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 7 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 7
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_08" tvg-name="Müzik Nabzı HD" tvg-logo="https://ui-avatars.com/api/?name=M%C3%BCzik%20Nabz%C4%B1%20HD&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Müzik Nabzı HD delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Müzik Nabzı HD
+#EXTINF:-1 tvg-id="live_music_08" tvg-name="Music Mix 8" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%208&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 8 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 8
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_09" tvg-name="Gece Karışımı" tvg-logo="https://ui-avatars.com/api/?name=Gece%20Kar%C4%B1%C5%9F%C4%B1m%C4%B1&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Gece Karışımı delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Gece Karışımı
+#EXTINF:-1 tvg-id="live_music_09" tvg-name="Music Mix 9" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%209&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 9 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 9
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
-#EXTINF:-1 tvg-id="live_müzik_10" tvg-name="Plak Hikâyeleri" tvg-logo="https://ui-avatars.com/api/?name=Plak%20Hik%C3%A2yeleri&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Plak Hikâyeleri delivers a premium mock live channel tailored for App Store screenshot automation." group-title="Müzik",Plak Hikâyeleri
+#EXTINF:-1 tvg-id="live_music_10" tvg-name="Music Mix 10" tvg-logo="https://ui-avatars.com/api/?name=Music%20Mix%2010&background=random&color=fff&size=512&font-size=0.33" tvg-type="live" tvg-genre="Müzik" tvg-description="Music Mix 10 is a fictional demo live channel tailored for App Store screenshot automation." group-title="Müzik",Music Mix 10
 https://download.blender.org/demo/movies/Sintel.2010.720p.mkv
 
 # MOVIES - Zihin Büken Gerilimler
