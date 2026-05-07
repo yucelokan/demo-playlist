@@ -15,22 +15,25 @@ These URLs point at the current TMDB-based ASO dataset. Do not use the `main` br
 ## Generate Premium Assets
 
 ```sh
-TMDB_API_KEY=YOUR_KEY python3 scripts/generate_premium_demo_assets.py
+TMDB_API_KEY=YOUR_KEY python3 ../wuwtv-artifacts/cli/scripts/generate_premium_demo_assets.py
 ```
 
 Or pass credentials explicitly:
 
 ```sh
-python3 scripts/generate_premium_demo_assets.py --api-key YOUR_KEY
+python3 ../wuwtv-artifacts/cli/scripts/generate_premium_demo_assets.py --api-key YOUR_KEY
 ```
 
 This command regenerates:
 
 - `demo.en-US.m3u`
 - `demo.tr.m3u`
+- `demo.m3u`
+
+And writes JSON/config artifacts to sibling `../wuwtv-artifacts/cli/build/demo-playlist/`:
+
 - `demo.en-US.json`
 - `demo.tr.json`
-- `demo.m3u`
 - `demo.json`
 - `premium_screenshot_map.json`
 - `screenshot_config.aso-master.json`
@@ -51,8 +54,8 @@ Theme: high-tension, plot-twist, dark mystery, sci-fi, action
 
 ### Screenshot anchors
 
-- Series dashboard category: `Mind-Bending Thrillers`
-- Player / detail anchor movie: `Tears of Steel`
+- Movie home category: `Mind-Bending Thrillers` / `Zihin Büken Gerilimler`
+- Player / detail anchor movie: `Pulp Fiction` / `Ucuz Roman`
 - Live category browser: `Premium Sports` / `Premium Spor`
 
 ## Metadata
