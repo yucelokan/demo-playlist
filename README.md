@@ -64,9 +64,9 @@ Movies and series episodes include: `tvg-description`, `tvg-cast`, `tvg-director
 
 ## Sources
 
-- **Playback URL:** every live, movie, and episode entry resolves to the same public Sintel stream for deterministic screenshot playback
-- **Movie/series metadata and artwork:** TMDB
-- **Live channel logos:** UI Avatars
+- **Playback URL:** every live, movie, and episode entry resolves to the same license-safe public Sintel sample stream for deterministic screenshot playback
+- **Movie/series metadata and artwork:** TMDB image/API URLs for illustrative catalog metadata only. WUWTV does not host, bundle, sell, or provide playable media from TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.
+- **Live channel logos:** generated placeholders from UI Avatars
 
 ## How to add to WUWTV
 
